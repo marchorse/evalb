@@ -1,0 +1,1737 @@
+  Sent.                        Matched  Bracket   Cross        Correct Tag
+ ID  Len.  Stat. Recal  Prec.  Bracket gold test Bracket Words  Tags Accracy
+============================================================================
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+
+1.res=0, 2.res=0, 1.start=0, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=0, 2.start=0, 1.end=1, 2.end=4
+1.res=0, 2.res=0, 1.start=0, 2.start=0, 1.end=1, 2.end=1
+1.res=0, 2.res=1, 1.start=1, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=1, 2.start=0, 1.end=4, 2.end=1
+1.res=0, 2.res=0, 1.start=1, 2.start=1, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=2, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=2, 2.start=0, 1.end=4, 2.end=1
+1.res=0, 2.res=1, 1.start=2, 2.start=1, 1.end=4, 2.end=4
+1.res=0, 2.res=0, 1.start=2, 2.start=2, 1.end=4, 2.end=4
+   1    4    0  100.00 100.00     4      4    4      0      4     4   100.00
+-<1>---(wn1=  4, bn1=  4)-           -<2>---(wn2=  4, bn2=  4)-
+  0 : 1 : P       this                    0 : 1 : P       this            
+  1 : 1 : Q       is                      1 : 1 : Q       is              
+  2 : 1 : R       a                       2 : 1 : R       a               
+  3 : 1 : T       test                    3 : 1 : T       test            
+
+  0 : 1 :   0    4  S             0 : 1 :   0    4  S     
+  1 : 1 :   0    1  A             1 : 1 :   0    1  A     
+  2 : 1 :   1    4  B             2 : 1 :   1    4  B     
+  3 : 1 :   2    4  A             3 : 1 :   2    4  A     
+
+========
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=C, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+
+1.res=0, 2.res=0, 1.start=0, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=0, 2.start=0, 1.end=1, 2.end=4
+1.res=0, 2.res=0, 1.start=0, 2.start=0, 1.end=1, 2.end=1
+1.res=0, 2.res=1, 1.start=1, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=1, 2.start=0, 1.end=4, 2.end=1
+1.res=0, 2.res=0, 1.start=1, 2.start=1, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=2, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=2, 2.start=0, 1.end=4, 2.end=1
+1.res=0, 2.res=1, 1.start=2, 2.start=1, 1.end=4, 2.end=4
+1.res=0, 2.res=0, 1.start=2, 2.start=2, 1.end=4, 2.end=4
+  LABEL[2-3]:  (R a) (T test)
+   2    4    0   75.00  75.00     3      4    4      0      4     4   100.00
+-<1>---(wn1=  4, bn1=  4)-           -<2>---(wn2=  4, bn2=  4)-
+  0 : 1 : P       this                    0 : 1 : P       this            
+  1 : 1 : Q       is                      1 : 1 : Q       is              
+  2 : 1 : R       a                       2 : 1 : R       a               
+  3 : 1 : T       test                    3 : 1 : T       test            
+
+  0 : 1 :   0    4  S             0 : 1 :   0    4  S     
+  1 : 1 :   0    1  A             1 : 1 :   0    1  A     
+  2 : 1 :   1    4  B             2 : 1 :   1    4  B     
+  3 : 0 :   2    4  A             3 : 0 :   2    4  C     
+
+========
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=U, word=test, wid=3
+
+1.res=0, 2.res=0, 1.start=0, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=0, 2.start=0, 1.end=1, 2.end=4
+1.res=0, 2.res=0, 1.start=0, 2.start=0, 1.end=1, 2.end=1
+1.res=0, 2.res=1, 1.start=1, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=1, 2.start=0, 1.end=4, 2.end=1
+1.res=0, 2.res=0, 1.start=1, 2.start=1, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=2, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=2, 2.start=0, 1.end=4, 2.end=1
+1.res=0, 2.res=1, 1.start=2, 2.start=1, 1.end=4, 2.end=4
+1.res=0, 2.res=0, 1.start=2, 2.start=2, 1.end=4, 2.end=4
+   3    4    0  100.00 100.00     4      4    4      0      4     3    75.00
+-<1>---(wn1=  4, bn1=  4)-           -<2>---(wn2=  4, bn2=  4)-
+  0 : 1 : P       this                    0 : 1 : P       this            
+  1 : 1 : Q       is                      1 : 1 : Q       is              
+  2 : 1 : R       a                       2 : 1 : R       a               
+  3 : 0 : T       test                    3 : 0 : U       test            
+
+  0 : 1 :   0    4  S             0 : 1 :   0    4  S     
+  1 : 1 :   0    1  A             1 : 1 :   0    1  A     
+  2 : 1 :   1    4  B             2 : 1 :   1    4  B     
+  3 : 1 :   2    4  A             3 : 1 :   2    4  A     
+
+========
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+label=S, word=, wid=0
+label=C, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=U, word=test, wid=3
+
+1.res=0, 2.res=0, 1.start=0, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=0, 2.start=0, 1.end=1, 2.end=4
+1.res=0, 2.res=0, 1.start=0, 2.start=0, 1.end=1, 2.end=1
+  LABEL[0-0]:  (P this)
+1.res=0, 2.res=0, 1.start=0, 2.start=1, 1.end=1, 2.end=4
+1.res=0, 2.res=0, 1.start=0, 2.start=2, 1.end=1, 2.end=4
+1.res=0, 2.res=1, 1.start=1, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=0, 1.start=1, 2.start=0, 1.end=4, 2.end=1
+1.res=0, 2.res=0, 1.start=1, 2.start=1, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=2, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=0, 1.start=2, 2.start=0, 1.end=4, 2.end=1
+1.res=0, 2.res=1, 1.start=2, 2.start=1, 1.end=4, 2.end=4
+1.res=0, 2.res=0, 1.start=2, 2.start=2, 1.end=4, 2.end=4
+   4    4    0   75.00  75.00     3      4    4      0      4     3    75.00
+-<1>---(wn1=  4, bn1=  4)-           -<2>---(wn2=  4, bn2=  4)-
+  0 : 1 : P       this                    0 : 1 : P       this            
+  1 : 1 : Q       is                      1 : 1 : Q       is              
+  2 : 1 : R       a                       2 : 1 : R       a               
+  3 : 0 : T       test                    3 : 0 : U       test            
+
+  0 : 1 :   0    4  S             0 : 1 :   0    4  S     
+  1 : 0 :   0    1  A             1 : 0 :   0    1  C     
+  2 : 1 :   1    4  B             2 : 1 :   1    4  B     
+  3 : 1 :   2    4  A             3 : 1 :   2    4  A     
+
+========
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=R, word=a, wid=2
+label=A, word=, wid=3
+label=T, word=test, wid=3
+
+1.res=0, 2.res=0, 1.start=0, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=0, 2.start=0, 1.end=1, 2.end=4
+1.res=0, 2.res=0, 1.start=0, 2.start=0, 1.end=1, 2.end=1
+1.res=0, 2.res=1, 1.start=1, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=1, 2.start=0, 1.end=4, 2.end=1
+1.res=0, 2.res=0, 1.start=1, 2.start=1, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=2, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=2, 2.start=0, 1.end=4, 2.end=1
+1.res=0, 2.res=1, 1.start=2, 2.start=1, 1.end=4, 2.end=4
+1.res=0, 2.res=0, 1.start=2, 2.start=3, 1.end=4, 2.end=4
+  BRACKET[2-3]:  (R a) (T test)
+  EXTRA[3-3]:  (T test)
+   5    4    0   75.00  75.00     3      4    4      0      4     4   100.00
+-<1>---(wn1=  4, bn1=  4)-           -<2>---(wn2=  4, bn2=  4)-
+  0 : 1 : P       this                    0 : 1 : P       this            
+  1 : 1 : Q       is                      1 : 1 : Q       is              
+  2 : 1 : R       a                       2 : 1 : R       a               
+  3 : 1 : T       test                    3 : 1 : T       test            
+
+  0 : 1 :   0    4  S             0 : 1 :   0    4  S     
+  1 : 1 :   0    1  A             1 : 1 :   0    1  A     
+  2 : 1 :   1    4  B             2 : 1 :   1    4  B     
+  3 : 0 :   2    4  A             3 : 0 :   3    4  A     
+
+========
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+
+1.res=0, 2.res=0, 1.start=0, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=0, 2.start=0, 1.end=1, 2.end=4
+1.res=0, 2.res=0, 1.start=0, 2.start=0, 1.end=1, 2.end=2
+1.res=0, 2.res=0, 1.start=0, 2.start=2, 1.end=1, 2.end=4
+  BRACKET[0-0]:  (P this)
+1.res=0, 2.res=1, 1.start=1, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=0, 1.start=1, 2.start=0, 1.end=4, 2.end=2
+1.res=0, 2.res=0, 1.start=1, 2.start=2, 1.end=4, 2.end=4
+  BRACKET[1-3]:  (Q is) (A (R a) (T test))
+1.res=0, 2.res=1, 1.start=2, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=0, 1.start=2, 2.start=0, 1.end=4, 2.end=2
+1.res=0, 2.res=0, 1.start=2, 2.start=2, 1.end=4, 2.end=4
+  EXTRA[0-1]:  (P this) (Q is)
+  CROSSING[1-3]:  (Q is) (A (R a) (T test))
+   6    4    0   50.00  66.67     2      4    3      1      4     4   100.00
+-<1>---(wn1=  4, bn1=  4)-           -<2>---(wn2=  4, bn2=  3)-
+  0 : 1 : P       this                    0 : 1 : P       this            
+  1 : 1 : Q       is                      1 : 1 : Q       is              
+  2 : 1 : R       a                       2 : 1 : R       a               
+  3 : 1 : T       test                    3 : 1 : T       test            
+
+  0 : 1 :   0    4  S             0 : 1 :   0    4  S     
+  1 : 0 :   0    1  A             1 : 0 :   0    2  A     
+  2 : 0 :   1    4  B             2 : 1 :   2    4  A     
+  3 : 1 :   2    4  A           
+
+========
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+label=S, word=, wid=0
+label=P, word=this, wid=0
+label=Q, word=is, wid=1
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+
+1.res=0, 2.res=0, 1.start=0, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=0, 2.start=0, 1.end=1, 2.end=4
+  BRACKET[0-0]:  (P this)
+1.res=0, 2.res=1, 1.start=1, 2.start=0, 1.end=4, 2.end=4
+  BRACKET[1-3]:  (Q is) (A (R a) (T test))
+1.res=0, 2.res=1, 1.start=2, 2.start=0, 1.end=4, 2.end=4
+  BRACKET[2-3]:  (R a) (T test)
+   7    4    0   25.00 100.00     1      4    1      0      4     4   100.00
+-<1>---(wn1=  4, bn1=  4)-           -<2>---(wn2=  4, bn2=  1)-
+  0 : 1 : P       this                    0 : 1 : P       this            
+  1 : 1 : Q       is                      1 : 1 : Q       is              
+  2 : 1 : R       a                       2 : 1 : R       a               
+  3 : 1 : T       test                    3 : 1 : T       test            
+
+  0 : 1 :   0    4  S             0 : 1 :   0    4  S     
+  1 : 0 :   0    1  A           
+  2 : 0 :   1    4  B           
+  3 : 0 :   2    4  A           
+
+========
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+label=P, word=this, wid=0
+label=Q, word=is, wid=1
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+
+  BRACKET[0-3]:  (A (P this)) (B (Q is) (A (R a) (T test)))
+  BRACKET[0-0]:  (P this)
+  BRACKET[1-3]:  (Q is) (A (R a) (T test))
+  BRACKET[2-3]:  (R a) (T test)
+   8    4    0    0.00   0.00     0      4    0      0      4     4   100.00
+-<1>---(wn1=  4, bn1=  4)-           -<2>---(wn2=  4, bn2=  0)-
+  0 : 1 : P       this                    0 : 1 : P       this            
+  1 : 1 : Q       is                      1 : 1 : Q       is              
+  2 : 1 : R       a                       2 : 1 : R       a               
+  3 : 1 : T       test                    3 : 1 : T       test            
+
+  0 : 0 :   0    4  S           
+  1 : 0 :   0    1  A           
+  2 : 0 :   1    4  B           
+  3 : 0 :   2    4  A           
+
+========
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+
+1.res=0, 2.res=0, 1.start=0, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=0, 2.start=0, 1.end=1, 2.end=4
+1.res=0, 2.res=0, 1.start=0, 2.start=0, 1.end=1, 2.end=1
+1.res=0, 2.res=1, 1.start=1, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=1, 2.start=0, 1.end=4, 2.end=1
+1.res=0, 2.res=0, 1.start=1, 2.start=1, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=2, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=2, 2.start=0, 1.end=4, 2.end=1
+1.res=0, 2.res=1, 1.start=2, 2.start=1, 1.end=4, 2.end=4
+1.res=0, 2.res=0, 1.start=2, 2.start=2, 1.end=4, 2.end=4
+  EXTRA[2-3]:  (R a) (T test)
+   9    4    0  100.00  80.00     4      4    5      0      4     4   100.00
+-<1>---(wn1=  4, bn1=  4)-           -<2>---(wn2=  4, bn2=  5)-
+  0 : 1 : P       this                    0 : 1 : P       this            
+  1 : 1 : Q       is                      1 : 1 : Q       is              
+  2 : 1 : R       a                       2 : 1 : R       a               
+  3 : 1 : T       test                    3 : 1 : T       test            
+
+  0 : 1 :   0    4  S             0 : 1 :   0    4  S     
+  1 : 1 :   0    1  A             1 : 1 :   0    1  A     
+  2 : 1 :   1    4  B             2 : 1 :   1    4  B     
+  3 : 1 :   2    4  A             3 : 1 :   2    4  A     
+                                  4 : 0 :   2    4  A     
+
+========
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=A, word=, wid=2
+label=A, word=, wid=2
+label=A, word=, wid=2
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+
+1.res=0, 2.res=0, 1.start=0, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=0, 2.start=0, 1.end=1, 2.end=4
+1.res=0, 2.res=0, 1.start=0, 2.start=0, 1.end=1, 2.end=1
+1.res=0, 2.res=1, 1.start=1, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=1, 2.start=0, 1.end=4, 2.end=1
+1.res=0, 2.res=0, 1.start=1, 2.start=1, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=2, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=2, 2.start=0, 1.end=4, 2.end=1
+1.res=0, 2.res=1, 1.start=2, 2.start=1, 1.end=4, 2.end=4
+1.res=0, 2.res=0, 1.start=2, 2.start=2, 1.end=4, 2.end=4
+  EXTRA[2-3]:  (A (A (A (R a) (T test))))
+  EXTRA[2-3]:  (A (A (R a) (T test)))
+  EXTRA[2-3]:  (A (R a) (T test))
+  EXTRA[2-3]:  (R a) (T test)
+  10    4    0  100.00  50.00     4      4    8      0      4     4   100.00
+-<1>---(wn1=  4, bn1=  4)-           -<2>---(wn2=  4, bn2=  8)-
+  0 : 1 : P       this                    0 : 1 : P       this            
+  1 : 1 : Q       is                      1 : 1 : Q       is              
+  2 : 1 : R       a                       2 : 1 : R       a               
+  3 : 1 : T       test                    3 : 1 : T       test            
+
+  0 : 1 :   0    4  S             0 : 1 :   0    4  S     
+  1 : 1 :   0    1  A             1 : 1 :   0    1  A     
+  2 : 1 :   1    4  B             2 : 1 :   1    4  B     
+  3 : 1 :   2    4  A             3 : 1 :   2    4  A     
+                                  4 : 0 :   2    4  A     
+                                  5 : 0 :   2    4  A     
+                                  6 : 0 :   2    4  A     
+                                  7 : 0 :   2    4  A     
+
+========
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+
+  11    4    2    0.00   0.00     0      0    0      0      0     0     0.00
+-<1>---(wn1=  4, bn1=  4)-           -<2>---(wn2=  0, bn2=  0)-
+  0 : 9 : P       this                  
+  1 : 9 : Q       is                    
+  2 : 9 : R       a                     
+  3 : 9 : T       test                  
+
+  0 : 9 :   0    4  S           
+  1 : 9 :   0    1  A           
+  2 : 9 :   1    4  B           
+  3 : 9 :   2    4  A           
+
+========
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=was, wid=1
+label=A, word=, wid=2
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+
+  12    4    1    0.00   0.00     0      0    0      0      0     0     0.00
+-<1>---(wn1=  4, bn1=  4)-           -<2>---(wn2=  4, bn2=  5)-
+  0 : 9 : P       this                    0 : 9 : P       this            
+  1 : 9 : Q       is                      1 : 9 : Q       was             
+  2 : 9 : R       a                       2 : 9 : R       a               
+  3 : 9 : T       test                    3 : 9 : T       test            
+
+  0 : 9 :   0    4  S             0 : 9 :   0    4  S     
+  1 : 9 :   0    1  A             1 : 9 :   0    1  A     
+  2 : 9 :   1    4  B             2 : 9 :   1    4  B     
+  3 : 9 :   2    4  A             3 : 9 :   2    4  A     
+                                  4 : 9 :   2    4  A     
+
+========
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=U, word=not, wid=2
+label=A, word=, wid=3
+label=A, word=, wid=3
+label=R, word=a, wid=3
+label=T, word=test, wid=4
+
+  13    4    1    0.00   0.00     0      0    0      0      0     0     0.00
+-<1>---(wn1=  4, bn1=  4)-           -<2>---(wn2=  5, bn2=  5)-
+  0 : 9 : P       this                    0 : 9 : P       this            
+  1 : 9 : Q       is                      1 : 9 : Q       is              
+  2 : 9 : R       a                       2 : 9 : U       not             
+  3 : 9 : T       test                    3 : 9 : R       a               
+                                          4 : 9 : T       test            
+
+  0 : 9 :   0    4  S             0 : 9 :   0    5  S     
+  1 : 9 :   0    1  A             1 : 9 :   0    1  A     
+  2 : 9 :   1    4  B             2 : 9 :   1    5  B     
+  3 : 9 :   2    4  A             3 : 9 :   3    5  A     
+                                  4 : 9 :   3    5  A     
+
+========
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+
+  14    4    2    0.00   0.00     0      0    0      0      0     0     0.00
+-<1>---(wn1=  4, bn1=  4)-           -<2>---(wn2=  0, bn2=  0)-
+  0 : 9 : P       this                  
+  1 : 9 : Q       is                    
+  2 : 9 : R       a                     
+  3 : 9 : T       test                  
+
+  0 : 9 :   0    4  S           
+  1 : 9 :   0    1  A           
+  2 : 9 :   1    4  B           
+  3 : 9 :   2    4  A           
+
+========
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+label=TOP, word=, wid=0
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+
+1.res=0, 2.res=5, 1.start=0, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=0, 1.start=0, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=5, 1.start=0, 2.start=0, 1.end=1, 2.end=4
+1.res=0, 2.res=1, 1.start=0, 2.start=0, 1.end=1, 2.end=4
+1.res=0, 2.res=0, 1.start=0, 2.start=0, 1.end=1, 2.end=1
+1.res=0, 2.res=5, 1.start=1, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=1, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=1, 2.start=0, 1.end=4, 2.end=1
+1.res=0, 2.res=0, 1.start=1, 2.start=1, 1.end=4, 2.end=4
+1.res=0, 2.res=5, 1.start=2, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=2, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=2, 2.start=0, 1.end=4, 2.end=1
+1.res=0, 2.res=1, 1.start=2, 2.start=1, 1.end=4, 2.end=4
+1.res=0, 2.res=0, 1.start=2, 2.start=2, 1.end=4, 2.end=4
+  15    4    0  100.00 100.00     4      4    4      0      4     4   100.00
+-<1>---(wn1=  4, bn1=  4)-           -<2>---(wn2=  4, bn2=  5)-
+  0 : 1 : P       this                    0 : 1 : P       this            
+  1 : 1 : Q       is                      1 : 1 : Q       is              
+  2 : 1 : R       a                       2 : 1 : R       a               
+  3 : 1 : T       test                    3 : 1 : T       test            
+
+  0 : 1 :   0    4  S             0 : 5 :   0    4  TOP   
+  1 : 1 :   0    1  A             1 : 1 :   0    4  S     
+  2 : 1 :   1    4  B             2 : 1 :   0    1  A     
+  3 : 1 :   2    4  A             3 : 1 :   1    4  B     
+                                  4 : 1 :   2    4  A     
+
+========
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=NONE, word=*, wid=1
+label=B, word=, wid=2
+label=Q, word=is, wid=2
+label=A, word=, wid=3
+label=R, word=a, wid=3
+label=T, word=test, wid=4
+
+  16    4    1    0.00   0.00     0      0    0      0      0     0     0.00
+-<1>---(wn1=  4, bn1=  4)-           -<2>---(wn2=  5, bn2=  4)-
+  0 : 9 : P       this                    0 : 9 : P       this            
+  1 : 9 : Q       is                      1 : 9 : NONE    *               
+  2 : 9 : R       a                       2 : 9 : Q       is              
+  3 : 9 : T       test                    3 : 9 : R       a               
+                                          4 : 9 : T       test            
+
+  0 : 9 :   0    4  S             0 : 9 :   0    5  S     
+  1 : 9 :   0    1  A             1 : 9 :   0    1  A     
+  2 : 9 :   1    4  B             2 : 9 :   2    5  B     
+  3 : 9 :   2    4  A             3 : 9 :   3    5  A     
+
+========
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=S, word=, wid=1
+label=NONE, word=abc, wid=1
+label=A, word=, wid=2
+label=NONE, word=*, wid=2
+label=B, word=, wid=3
+label=Q, word=is, wid=3
+label=A, word=, wid=4
+label=R, word=a, wid=4
+label=T, word=test, wid=5
+
+  17    4    1    0.00   0.00     0      0    0      0      0     0     0.00
+-<1>---(wn1=  4, bn1=  4)-           -<2>---(wn2=  6, bn2=  6)-
+  0 : 9 : P       this                    0 : 9 : P       this            
+  1 : 9 : Q       is                      1 : 9 : NONE    abc             
+  2 : 9 : R       a                       2 : 9 : NONE    *               
+  3 : 9 : T       test                    3 : 9 : Q       is              
+                                          4 : 9 : R       a               
+                                          5 : 9 : T       test            
+
+  0 : 9 :   0    4  S             0 : 9 :   0    6  S     
+  1 : 9 :   0    1  A             1 : 9 :   0    1  A     
+  2 : 9 :   1    4  B             2 : 9 :   1    3  S     
+  3 : 9 :   2    4  A             3 : 9 :   2    3  A     
+                                  4 : 9 :   3    6  B     
+                                  5 : 9 :   4    6  A     
+
+========
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=TT, word=test, wid=3
+
+1.res=0, 2.res=0, 1.start=0, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=0, 2.start=0, 1.end=1, 2.end=4
+1.res=0, 2.res=0, 1.start=0, 2.start=0, 1.end=1, 2.end=1
+1.res=0, 2.res=1, 1.start=1, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=1, 2.start=0, 1.end=4, 2.end=1
+1.res=0, 2.res=0, 1.start=1, 2.start=1, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=2, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=2, 2.start=0, 1.end=4, 2.end=1
+1.res=0, 2.res=1, 1.start=2, 2.start=1, 1.end=4, 2.end=4
+1.res=0, 2.res=0, 1.start=2, 2.start=2, 1.end=4, 2.end=4
+  18    4    0  100.00 100.00     4      4    4      0      4     4   100.00
+-<1>---(wn1=  4, bn1=  4)-           -<2>---(wn2=  4, bn2=  4)-
+  0 : 1 : P       this                    0 : 1 : P       this            
+  1 : 1 : Q       is                      1 : 1 : Q       is              
+  2 : 1 : R       a                       2 : 1 : R       a               
+  3 : 1 : T       test                    3 : 1 : TT      test            
+
+  0 : 1 :   0    4  S             0 : 1 :   0    4  S     
+  1 : 1 :   0    1  A             1 : 1 :   0    1  A     
+  2 : 1 :   1    4  B             2 : 1 :   1    4  B     
+  3 : 1 :   2    4  A             3 : 1 :   2    4  A     
+
+========
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=This, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+
+1.res=0, 2.res=0, 1.start=0, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=0, 2.start=0, 1.end=1, 2.end=4
+1.res=0, 2.res=0, 1.start=0, 2.start=0, 1.end=1, 2.end=1
+1.res=0, 2.res=1, 1.start=1, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=1, 2.start=0, 1.end=4, 2.end=1
+1.res=0, 2.res=0, 1.start=1, 2.start=1, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=2, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=2, 2.start=0, 1.end=4, 2.end=1
+1.res=0, 2.res=1, 1.start=2, 2.start=1, 1.end=4, 2.end=4
+1.res=0, 2.res=0, 1.start=2, 2.start=2, 1.end=4, 2.end=4
+  19    4    0  100.00 100.00     4      4    4      0      4     4   100.00
+-<1>---(wn1=  4, bn1=  4)-           -<2>---(wn2=  4, bn2=  4)-
+  0 : 1 : P       this                    0 : 1 : P       This            
+  1 : 1 : Q       is                      1 : 1 : Q       is              
+  2 : 1 : R       a                       2 : 1 : R       a               
+  3 : 1 : T       test                    3 : 1 : T       test            
+
+  0 : 1 :   0    4  S             0 : 1 :   0    4  S     
+  1 : 1 :   0    1  A             1 : 1 :   0    1  A     
+  2 : 1 :   1    4  B             2 : 1 :   1    4  B     
+  3 : 1 :   2    4  A             3 : 1 :   2    4  A     
+
+========
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=That, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+
+  20    4    1    0.00   0.00     0      0    0      0      0     0     0.00
+-<1>---(wn1=  4, bn1=  4)-           -<2>---(wn2=  4, bn2=  4)-
+  0 : 9 : P       this                    0 : 9 : P       That            
+  1 : 9 : Q       is                      1 : 9 : Q       is              
+  2 : 9 : R       a                       2 : 9 : R       a               
+  3 : 9 : T       test                    3 : 9 : T       test            
+
+  0 : 9 :   0    4  S             0 : 9 :   0    4  S     
+  1 : 9 :   0    1  A             1 : 9 :   0    1  A     
+  2 : 9 :   1    4  B             2 : 9 :   1    4  B     
+  3 : 9 :   2    4  A             3 : 9 :   2    4  A     
+
+========
+label=S, word=, wid=0
+label=A-SBJ-1, word=, wid=0
+label=P, word=this, wid=0
+label=B-WHATEVER, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+
+1.res=0, 2.res=0, 1.start=0, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=0, 2.start=0, 1.end=1, 2.end=4
+1.res=0, 2.res=0, 1.start=0, 2.start=0, 1.end=1, 2.end=1
+1.res=0, 2.res=1, 1.start=1, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=1, 2.start=0, 1.end=4, 2.end=1
+1.res=0, 2.res=0, 1.start=1, 2.start=1, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=2, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=2, 2.start=0, 1.end=4, 2.end=1
+1.res=0, 2.res=1, 1.start=2, 2.start=1, 1.end=4, 2.end=4
+1.res=0, 2.res=0, 1.start=2, 2.start=2, 1.end=4, 2.end=4
+  21    4    0  100.00 100.00     4      4    4      0      4     4   100.00
+-<1>---(wn1=  4, bn1=  4)-           -<2>---(wn2=  4, bn2=  4)-
+  0 : 1 : P       this                    0 : 1 : P       this            
+  1 : 1 : Q       is                      1 : 1 : Q       is              
+  2 : 1 : R       a                       2 : 1 : R       a               
+  3 : 1 : T       test                    3 : 1 : T       test            
+
+  0 : 1 :   0    4  S             0 : 1 :   0    4  S     
+  1 : 1 :   0    1  A             1 : 1 :   0    1  A     
+  2 : 1 :   1    4  B             2 : 1 :   1    4  B     
+  3 : 1 :   2    4  A             3 : 1 :   2    4  A     
+
+========
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+label=A, word=, wid=4
+label=P, word=this, wid=4
+label=B, word=, wid=5
+label=Q, word=is, wid=5
+label=A, word=, wid=6
+label=R, word=a, wid=6
+label=T, word=test, wid=7
+label=A, word=, wid=8
+label=P, word=this, wid=8
+label=B, word=, wid=9
+label=Q, word=is, wid=9
+label=A, word=, wid=10
+label=R, word=a, wid=10
+label=T, word=test, wid=11
+label=A, word=, wid=12
+label=P, word=this, wid=12
+label=B, word=, wid=13
+label=Q, word=is, wid=13
+label=A, word=, wid=14
+label=R, word=a, wid=14
+label=T, word=test, wid=15
+label=A, word=, wid=16
+label=P, word=this, wid=16
+label=B, word=, wid=17
+label=Q, word=is, wid=17
+label=A, word=, wid=18
+label=R, word=a, wid=18
+label=T, word=test, wid=19
+label=A, word=, wid=20
+label=P, word=this, wid=20
+label=B, word=, wid=21
+label=Q, word=is, wid=21
+label=A, word=, wid=22
+label=R, word=a, wid=22
+label=T, word=test, wid=23
+label=A, word=, wid=24
+label=P, word=this, wid=24
+label=B, word=, wid=25
+label=Q, word=is, wid=25
+label=A, word=, wid=26
+label=R, word=a, wid=26
+label=T, word=test, wid=27
+label=A, word=, wid=28
+label=P, word=this, wid=28
+label=B, word=, wid=29
+label=Q, word=is, wid=29
+label=A, word=, wid=30
+label=R, word=a, wid=30
+label=T, word=test, wid=31
+label=A, word=, wid=32
+label=P, word=this, wid=32
+label=B, word=, wid=33
+label=Q, word=is, wid=33
+label=A, word=, wid=34
+label=R, word=a, wid=34
+label=T, word=test, wid=35
+label=A, word=, wid=36
+label=P, word=this, wid=36
+label=B, word=, wid=37
+label=Q, word=is, wid=37
+label=A, word=, wid=38
+label=R, word=a, wid=38
+label=T, word=test, wid=39
+label=A, word=, wid=40
+label=P, word=this, wid=40
+label=B, word=, wid=41
+label=Q, word=is, wid=41
+label=A, word=, wid=42
+label=R, word=a, wid=42
+label=T, word=test, wid=43
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+label=A, word=, wid=4
+label=P, word=this, wid=4
+label=B, word=, wid=5
+label=Q, word=is, wid=5
+label=A, word=, wid=6
+label=R, word=a, wid=6
+label=T, word=test, wid=7
+label=A, word=, wid=8
+label=P, word=this, wid=8
+label=B, word=, wid=9
+label=Q, word=is, wid=9
+label=A, word=, wid=10
+label=R, word=a, wid=10
+label=T, word=test, wid=11
+label=A, word=, wid=12
+label=P, word=this, wid=12
+label=B, word=, wid=13
+label=Q, word=is, wid=13
+label=A, word=, wid=14
+label=R, word=a, wid=14
+label=T, word=test, wid=15
+label=A, word=, wid=16
+label=P, word=this, wid=16
+label=B, word=, wid=17
+label=Q, word=is, wid=17
+label=A, word=, wid=18
+label=R, word=a, wid=18
+label=T, word=test, wid=19
+label=A, word=, wid=20
+label=P, word=this, wid=20
+label=B, word=, wid=21
+label=Q, word=is, wid=21
+label=A, word=, wid=22
+label=R, word=a, wid=22
+label=T, word=test, wid=23
+label=A, word=, wid=24
+label=P, word=this, wid=24
+label=B, word=, wid=25
+label=Q, word=is, wid=25
+label=A, word=, wid=26
+label=R, word=a, wid=26
+label=T, word=test, wid=27
+label=A, word=, wid=28
+label=P, word=this, wid=28
+label=B, word=, wid=29
+label=Q, word=is, wid=29
+label=A, word=, wid=30
+label=R, word=a, wid=30
+label=T, word=test, wid=31
+label=A, word=, wid=32
+label=P, word=this, wid=32
+label=B, word=, wid=33
+label=Q, word=is, wid=33
+label=A, word=, wid=34
+label=R, word=a, wid=34
+label=T, word=test, wid=35
+label=A, word=, wid=36
+label=P, word=this, wid=36
+label=B, word=, wid=37
+label=Q, word=is, wid=37
+label=A, word=, wid=38
+label=R, word=a, wid=38
+label=T, word=test, wid=39
+label=A, word=, wid=40
+label=P, word=this, wid=40
+label=B, word=, wid=41
+label=Q, word=is, wid=41
+label=A, word=, wid=42
+label=R, word=a, wid=42
+label=T, word=test, wid=43
+
+1.res=0, 2.res=0, 1.start=0, 2.start=0, 1.end=44, 2.end=44
+1.res=0, 2.res=1, 1.start=0, 2.start=0, 1.end=1, 2.end=44
+1.res=0, 2.res=0, 1.start=0, 2.start=0, 1.end=1, 2.end=1
+1.res=0, 2.res=1, 1.start=1, 2.start=0, 1.end=4, 2.end=44
+1.res=0, 2.res=1, 1.start=1, 2.start=0, 1.end=4, 2.end=1
+1.res=0, 2.res=0, 1.start=1, 2.start=1, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=2, 2.start=0, 1.end=4, 2.end=44
+1.res=0, 2.res=1, 1.start=2, 2.start=0, 1.end=4, 2.end=1
+1.res=0, 2.res=1, 1.start=2, 2.start=1, 1.end=4, 2.end=4
+1.res=0, 2.res=0, 1.start=2, 2.start=2, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=4, 2.start=0, 1.end=5, 2.end=44
+1.res=0, 2.res=1, 1.start=4, 2.start=0, 1.end=5, 2.end=1
+1.res=0, 2.res=1, 1.start=4, 2.start=1, 1.end=5, 2.end=4
+1.res=0, 2.res=1, 1.start=4, 2.start=2, 1.end=5, 2.end=4
+1.res=0, 2.res=0, 1.start=4, 2.start=4, 1.end=5, 2.end=5
+1.res=0, 2.res=1, 1.start=5, 2.start=0, 1.end=8, 2.end=44
+1.res=0, 2.res=1, 1.start=5, 2.start=0, 1.end=8, 2.end=1
+1.res=0, 2.res=1, 1.start=5, 2.start=1, 1.end=8, 2.end=4
+1.res=0, 2.res=1, 1.start=5, 2.start=2, 1.end=8, 2.end=4
+1.res=0, 2.res=1, 1.start=5, 2.start=4, 1.end=8, 2.end=5
+1.res=0, 2.res=0, 1.start=5, 2.start=5, 1.end=8, 2.end=8
+1.res=0, 2.res=1, 1.start=6, 2.start=0, 1.end=8, 2.end=44
+1.res=0, 2.res=1, 1.start=6, 2.start=0, 1.end=8, 2.end=1
+1.res=0, 2.res=1, 1.start=6, 2.start=1, 1.end=8, 2.end=4
+1.res=0, 2.res=1, 1.start=6, 2.start=2, 1.end=8, 2.end=4
+1.res=0, 2.res=1, 1.start=6, 2.start=4, 1.end=8, 2.end=5
+1.res=0, 2.res=1, 1.start=6, 2.start=5, 1.end=8, 2.end=8
+1.res=0, 2.res=0, 1.start=6, 2.start=6, 1.end=8, 2.end=8
+1.res=0, 2.res=1, 1.start=8, 2.start=0, 1.end=9, 2.end=44
+1.res=0, 2.res=1, 1.start=8, 2.start=0, 1.end=9, 2.end=1
+1.res=0, 2.res=1, 1.start=8, 2.start=1, 1.end=9, 2.end=4
+1.res=0, 2.res=1, 1.start=8, 2.start=2, 1.end=9, 2.end=4
+1.res=0, 2.res=1, 1.start=8, 2.start=4, 1.end=9, 2.end=5
+1.res=0, 2.res=1, 1.start=8, 2.start=5, 1.end=9, 2.end=8
+1.res=0, 2.res=1, 1.start=8, 2.start=6, 1.end=9, 2.end=8
+1.res=0, 2.res=0, 1.start=8, 2.start=8, 1.end=9, 2.end=9
+1.res=0, 2.res=1, 1.start=9, 2.start=0, 1.end=12, 2.end=44
+1.res=0, 2.res=1, 1.start=9, 2.start=0, 1.end=12, 2.end=1
+1.res=0, 2.res=1, 1.start=9, 2.start=1, 1.end=12, 2.end=4
+1.res=0, 2.res=1, 1.start=9, 2.start=2, 1.end=12, 2.end=4
+1.res=0, 2.res=1, 1.start=9, 2.start=4, 1.end=12, 2.end=5
+1.res=0, 2.res=1, 1.start=9, 2.start=5, 1.end=12, 2.end=8
+1.res=0, 2.res=1, 1.start=9, 2.start=6, 1.end=12, 2.end=8
+1.res=0, 2.res=1, 1.start=9, 2.start=8, 1.end=12, 2.end=9
+1.res=0, 2.res=0, 1.start=9, 2.start=9, 1.end=12, 2.end=12
+1.res=0, 2.res=1, 1.start=10, 2.start=0, 1.end=12, 2.end=44
+1.res=0, 2.res=1, 1.start=10, 2.start=0, 1.end=12, 2.end=1
+1.res=0, 2.res=1, 1.start=10, 2.start=1, 1.end=12, 2.end=4
+1.res=0, 2.res=1, 1.start=10, 2.start=2, 1.end=12, 2.end=4
+1.res=0, 2.res=1, 1.start=10, 2.start=4, 1.end=12, 2.end=5
+1.res=0, 2.res=1, 1.start=10, 2.start=5, 1.end=12, 2.end=8
+1.res=0, 2.res=1, 1.start=10, 2.start=6, 1.end=12, 2.end=8
+1.res=0, 2.res=1, 1.start=10, 2.start=8, 1.end=12, 2.end=9
+1.res=0, 2.res=1, 1.start=10, 2.start=9, 1.end=12, 2.end=12
+1.res=0, 2.res=0, 1.start=10, 2.start=10, 1.end=12, 2.end=12
+1.res=0, 2.res=1, 1.start=12, 2.start=0, 1.end=13, 2.end=44
+1.res=0, 2.res=1, 1.start=12, 2.start=0, 1.end=13, 2.end=1
+1.res=0, 2.res=1, 1.start=12, 2.start=1, 1.end=13, 2.end=4
+1.res=0, 2.res=1, 1.start=12, 2.start=2, 1.end=13, 2.end=4
+1.res=0, 2.res=1, 1.start=12, 2.start=4, 1.end=13, 2.end=5
+1.res=0, 2.res=1, 1.start=12, 2.start=5, 1.end=13, 2.end=8
+1.res=0, 2.res=1, 1.start=12, 2.start=6, 1.end=13, 2.end=8
+1.res=0, 2.res=1, 1.start=12, 2.start=8, 1.end=13, 2.end=9
+1.res=0, 2.res=1, 1.start=12, 2.start=9, 1.end=13, 2.end=12
+1.res=0, 2.res=1, 1.start=12, 2.start=10, 1.end=13, 2.end=12
+1.res=0, 2.res=0, 1.start=12, 2.start=12, 1.end=13, 2.end=13
+1.res=0, 2.res=1, 1.start=13, 2.start=0, 1.end=16, 2.end=44
+1.res=0, 2.res=1, 1.start=13, 2.start=0, 1.end=16, 2.end=1
+1.res=0, 2.res=1, 1.start=13, 2.start=1, 1.end=16, 2.end=4
+1.res=0, 2.res=1, 1.start=13, 2.start=2, 1.end=16, 2.end=4
+1.res=0, 2.res=1, 1.start=13, 2.start=4, 1.end=16, 2.end=5
+1.res=0, 2.res=1, 1.start=13, 2.start=5, 1.end=16, 2.end=8
+1.res=0, 2.res=1, 1.start=13, 2.start=6, 1.end=16, 2.end=8
+1.res=0, 2.res=1, 1.start=13, 2.start=8, 1.end=16, 2.end=9
+1.res=0, 2.res=1, 1.start=13, 2.start=9, 1.end=16, 2.end=12
+1.res=0, 2.res=1, 1.start=13, 2.start=10, 1.end=16, 2.end=12
+1.res=0, 2.res=1, 1.start=13, 2.start=12, 1.end=16, 2.end=13
+1.res=0, 2.res=0, 1.start=13, 2.start=13, 1.end=16, 2.end=16
+1.res=0, 2.res=1, 1.start=14, 2.start=0, 1.end=16, 2.end=44
+1.res=0, 2.res=1, 1.start=14, 2.start=0, 1.end=16, 2.end=1
+1.res=0, 2.res=1, 1.start=14, 2.start=1, 1.end=16, 2.end=4
+1.res=0, 2.res=1, 1.start=14, 2.start=2, 1.end=16, 2.end=4
+1.res=0, 2.res=1, 1.start=14, 2.start=4, 1.end=16, 2.end=5
+1.res=0, 2.res=1, 1.start=14, 2.start=5, 1.end=16, 2.end=8
+1.res=0, 2.res=1, 1.start=14, 2.start=6, 1.end=16, 2.end=8
+1.res=0, 2.res=1, 1.start=14, 2.start=8, 1.end=16, 2.end=9
+1.res=0, 2.res=1, 1.start=14, 2.start=9, 1.end=16, 2.end=12
+1.res=0, 2.res=1, 1.start=14, 2.start=10, 1.end=16, 2.end=12
+1.res=0, 2.res=1, 1.start=14, 2.start=12, 1.end=16, 2.end=13
+1.res=0, 2.res=1, 1.start=14, 2.start=13, 1.end=16, 2.end=16
+1.res=0, 2.res=0, 1.start=14, 2.start=14, 1.end=16, 2.end=16
+1.res=0, 2.res=1, 1.start=16, 2.start=0, 1.end=17, 2.end=44
+1.res=0, 2.res=1, 1.start=16, 2.start=0, 1.end=17, 2.end=1
+1.res=0, 2.res=1, 1.start=16, 2.start=1, 1.end=17, 2.end=4
+1.res=0, 2.res=1, 1.start=16, 2.start=2, 1.end=17, 2.end=4
+1.res=0, 2.res=1, 1.start=16, 2.start=4, 1.end=17, 2.end=5
+1.res=0, 2.res=1, 1.start=16, 2.start=5, 1.end=17, 2.end=8
+1.res=0, 2.res=1, 1.start=16, 2.start=6, 1.end=17, 2.end=8
+1.res=0, 2.res=1, 1.start=16, 2.start=8, 1.end=17, 2.end=9
+1.res=0, 2.res=1, 1.start=16, 2.start=9, 1.end=17, 2.end=12
+1.res=0, 2.res=1, 1.start=16, 2.start=10, 1.end=17, 2.end=12
+1.res=0, 2.res=1, 1.start=16, 2.start=12, 1.end=17, 2.end=13
+1.res=0, 2.res=1, 1.start=16, 2.start=13, 1.end=17, 2.end=16
+1.res=0, 2.res=1, 1.start=16, 2.start=14, 1.end=17, 2.end=16
+1.res=0, 2.res=0, 1.start=16, 2.start=16, 1.end=17, 2.end=17
+1.res=0, 2.res=1, 1.start=17, 2.start=0, 1.end=20, 2.end=44
+1.res=0, 2.res=1, 1.start=17, 2.start=0, 1.end=20, 2.end=1
+1.res=0, 2.res=1, 1.start=17, 2.start=1, 1.end=20, 2.end=4
+1.res=0, 2.res=1, 1.start=17, 2.start=2, 1.end=20, 2.end=4
+1.res=0, 2.res=1, 1.start=17, 2.start=4, 1.end=20, 2.end=5
+1.res=0, 2.res=1, 1.start=17, 2.start=5, 1.end=20, 2.end=8
+1.res=0, 2.res=1, 1.start=17, 2.start=6, 1.end=20, 2.end=8
+1.res=0, 2.res=1, 1.start=17, 2.start=8, 1.end=20, 2.end=9
+1.res=0, 2.res=1, 1.start=17, 2.start=9, 1.end=20, 2.end=12
+1.res=0, 2.res=1, 1.start=17, 2.start=10, 1.end=20, 2.end=12
+1.res=0, 2.res=1, 1.start=17, 2.start=12, 1.end=20, 2.end=13
+1.res=0, 2.res=1, 1.start=17, 2.start=13, 1.end=20, 2.end=16
+1.res=0, 2.res=1, 1.start=17, 2.start=14, 1.end=20, 2.end=16
+1.res=0, 2.res=1, 1.start=17, 2.start=16, 1.end=20, 2.end=17
+1.res=0, 2.res=0, 1.start=17, 2.start=17, 1.end=20, 2.end=20
+1.res=0, 2.res=1, 1.start=18, 2.start=0, 1.end=20, 2.end=44
+1.res=0, 2.res=1, 1.start=18, 2.start=0, 1.end=20, 2.end=1
+1.res=0, 2.res=1, 1.start=18, 2.start=1, 1.end=20, 2.end=4
+1.res=0, 2.res=1, 1.start=18, 2.start=2, 1.end=20, 2.end=4
+1.res=0, 2.res=1, 1.start=18, 2.start=4, 1.end=20, 2.end=5
+1.res=0, 2.res=1, 1.start=18, 2.start=5, 1.end=20, 2.end=8
+1.res=0, 2.res=1, 1.start=18, 2.start=6, 1.end=20, 2.end=8
+1.res=0, 2.res=1, 1.start=18, 2.start=8, 1.end=20, 2.end=9
+1.res=0, 2.res=1, 1.start=18, 2.start=9, 1.end=20, 2.end=12
+1.res=0, 2.res=1, 1.start=18, 2.start=10, 1.end=20, 2.end=12
+1.res=0, 2.res=1, 1.start=18, 2.start=12, 1.end=20, 2.end=13
+1.res=0, 2.res=1, 1.start=18, 2.start=13, 1.end=20, 2.end=16
+1.res=0, 2.res=1, 1.start=18, 2.start=14, 1.end=20, 2.end=16
+1.res=0, 2.res=1, 1.start=18, 2.start=16, 1.end=20, 2.end=17
+1.res=0, 2.res=1, 1.start=18, 2.start=17, 1.end=20, 2.end=20
+1.res=0, 2.res=0, 1.start=18, 2.start=18, 1.end=20, 2.end=20
+1.res=0, 2.res=1, 1.start=20, 2.start=0, 1.end=21, 2.end=44
+1.res=0, 2.res=1, 1.start=20, 2.start=0, 1.end=21, 2.end=1
+1.res=0, 2.res=1, 1.start=20, 2.start=1, 1.end=21, 2.end=4
+1.res=0, 2.res=1, 1.start=20, 2.start=2, 1.end=21, 2.end=4
+1.res=0, 2.res=1, 1.start=20, 2.start=4, 1.end=21, 2.end=5
+1.res=0, 2.res=1, 1.start=20, 2.start=5, 1.end=21, 2.end=8
+1.res=0, 2.res=1, 1.start=20, 2.start=6, 1.end=21, 2.end=8
+1.res=0, 2.res=1, 1.start=20, 2.start=8, 1.end=21, 2.end=9
+1.res=0, 2.res=1, 1.start=20, 2.start=9, 1.end=21, 2.end=12
+1.res=0, 2.res=1, 1.start=20, 2.start=10, 1.end=21, 2.end=12
+1.res=0, 2.res=1, 1.start=20, 2.start=12, 1.end=21, 2.end=13
+1.res=0, 2.res=1, 1.start=20, 2.start=13, 1.end=21, 2.end=16
+1.res=0, 2.res=1, 1.start=20, 2.start=14, 1.end=21, 2.end=16
+1.res=0, 2.res=1, 1.start=20, 2.start=16, 1.end=21, 2.end=17
+1.res=0, 2.res=1, 1.start=20, 2.start=17, 1.end=21, 2.end=20
+1.res=0, 2.res=1, 1.start=20, 2.start=18, 1.end=21, 2.end=20
+1.res=0, 2.res=0, 1.start=20, 2.start=20, 1.end=21, 2.end=21
+1.res=0, 2.res=1, 1.start=21, 2.start=0, 1.end=24, 2.end=44
+1.res=0, 2.res=1, 1.start=21, 2.start=0, 1.end=24, 2.end=1
+1.res=0, 2.res=1, 1.start=21, 2.start=1, 1.end=24, 2.end=4
+1.res=0, 2.res=1, 1.start=21, 2.start=2, 1.end=24, 2.end=4
+1.res=0, 2.res=1, 1.start=21, 2.start=4, 1.end=24, 2.end=5
+1.res=0, 2.res=1, 1.start=21, 2.start=5, 1.end=24, 2.end=8
+1.res=0, 2.res=1, 1.start=21, 2.start=6, 1.end=24, 2.end=8
+1.res=0, 2.res=1, 1.start=21, 2.start=8, 1.end=24, 2.end=9
+1.res=0, 2.res=1, 1.start=21, 2.start=9, 1.end=24, 2.end=12
+1.res=0, 2.res=1, 1.start=21, 2.start=10, 1.end=24, 2.end=12
+1.res=0, 2.res=1, 1.start=21, 2.start=12, 1.end=24, 2.end=13
+1.res=0, 2.res=1, 1.start=21, 2.start=13, 1.end=24, 2.end=16
+1.res=0, 2.res=1, 1.start=21, 2.start=14, 1.end=24, 2.end=16
+1.res=0, 2.res=1, 1.start=21, 2.start=16, 1.end=24, 2.end=17
+1.res=0, 2.res=1, 1.start=21, 2.start=17, 1.end=24, 2.end=20
+1.res=0, 2.res=1, 1.start=21, 2.start=18, 1.end=24, 2.end=20
+1.res=0, 2.res=1, 1.start=21, 2.start=20, 1.end=24, 2.end=21
+1.res=0, 2.res=0, 1.start=21, 2.start=21, 1.end=24, 2.end=24
+1.res=0, 2.res=1, 1.start=22, 2.start=0, 1.end=24, 2.end=44
+1.res=0, 2.res=1, 1.start=22, 2.start=0, 1.end=24, 2.end=1
+1.res=0, 2.res=1, 1.start=22, 2.start=1, 1.end=24, 2.end=4
+1.res=0, 2.res=1, 1.start=22, 2.start=2, 1.end=24, 2.end=4
+1.res=0, 2.res=1, 1.start=22, 2.start=4, 1.end=24, 2.end=5
+1.res=0, 2.res=1, 1.start=22, 2.start=5, 1.end=24, 2.end=8
+1.res=0, 2.res=1, 1.start=22, 2.start=6, 1.end=24, 2.end=8
+1.res=0, 2.res=1, 1.start=22, 2.start=8, 1.end=24, 2.end=9
+1.res=0, 2.res=1, 1.start=22, 2.start=9, 1.end=24, 2.end=12
+1.res=0, 2.res=1, 1.start=22, 2.start=10, 1.end=24, 2.end=12
+1.res=0, 2.res=1, 1.start=22, 2.start=12, 1.end=24, 2.end=13
+1.res=0, 2.res=1, 1.start=22, 2.start=13, 1.end=24, 2.end=16
+1.res=0, 2.res=1, 1.start=22, 2.start=14, 1.end=24, 2.end=16
+1.res=0, 2.res=1, 1.start=22, 2.start=16, 1.end=24, 2.end=17
+1.res=0, 2.res=1, 1.start=22, 2.start=17, 1.end=24, 2.end=20
+1.res=0, 2.res=1, 1.start=22, 2.start=18, 1.end=24, 2.end=20
+1.res=0, 2.res=1, 1.start=22, 2.start=20, 1.end=24, 2.end=21
+1.res=0, 2.res=1, 1.start=22, 2.start=21, 1.end=24, 2.end=24
+1.res=0, 2.res=0, 1.start=22, 2.start=22, 1.end=24, 2.end=24
+1.res=0, 2.res=1, 1.start=24, 2.start=0, 1.end=25, 2.end=44
+1.res=0, 2.res=1, 1.start=24, 2.start=0, 1.end=25, 2.end=1
+1.res=0, 2.res=1, 1.start=24, 2.start=1, 1.end=25, 2.end=4
+1.res=0, 2.res=1, 1.start=24, 2.start=2, 1.end=25, 2.end=4
+1.res=0, 2.res=1, 1.start=24, 2.start=4, 1.end=25, 2.end=5
+1.res=0, 2.res=1, 1.start=24, 2.start=5, 1.end=25, 2.end=8
+1.res=0, 2.res=1, 1.start=24, 2.start=6, 1.end=25, 2.end=8
+1.res=0, 2.res=1, 1.start=24, 2.start=8, 1.end=25, 2.end=9
+1.res=0, 2.res=1, 1.start=24, 2.start=9, 1.end=25, 2.end=12
+1.res=0, 2.res=1, 1.start=24, 2.start=10, 1.end=25, 2.end=12
+1.res=0, 2.res=1, 1.start=24, 2.start=12, 1.end=25, 2.end=13
+1.res=0, 2.res=1, 1.start=24, 2.start=13, 1.end=25, 2.end=16
+1.res=0, 2.res=1, 1.start=24, 2.start=14, 1.end=25, 2.end=16
+1.res=0, 2.res=1, 1.start=24, 2.start=16, 1.end=25, 2.end=17
+1.res=0, 2.res=1, 1.start=24, 2.start=17, 1.end=25, 2.end=20
+1.res=0, 2.res=1, 1.start=24, 2.start=18, 1.end=25, 2.end=20
+1.res=0, 2.res=1, 1.start=24, 2.start=20, 1.end=25, 2.end=21
+1.res=0, 2.res=1, 1.start=24, 2.start=21, 1.end=25, 2.end=24
+1.res=0, 2.res=1, 1.start=24, 2.start=22, 1.end=25, 2.end=24
+1.res=0, 2.res=0, 1.start=24, 2.start=24, 1.end=25, 2.end=25
+1.res=0, 2.res=1, 1.start=25, 2.start=0, 1.end=28, 2.end=44
+1.res=0, 2.res=1, 1.start=25, 2.start=0, 1.end=28, 2.end=1
+1.res=0, 2.res=1, 1.start=25, 2.start=1, 1.end=28, 2.end=4
+1.res=0, 2.res=1, 1.start=25, 2.start=2, 1.end=28, 2.end=4
+1.res=0, 2.res=1, 1.start=25, 2.start=4, 1.end=28, 2.end=5
+1.res=0, 2.res=1, 1.start=25, 2.start=5, 1.end=28, 2.end=8
+1.res=0, 2.res=1, 1.start=25, 2.start=6, 1.end=28, 2.end=8
+1.res=0, 2.res=1, 1.start=25, 2.start=8, 1.end=28, 2.end=9
+1.res=0, 2.res=1, 1.start=25, 2.start=9, 1.end=28, 2.end=12
+1.res=0, 2.res=1, 1.start=25, 2.start=10, 1.end=28, 2.end=12
+1.res=0, 2.res=1, 1.start=25, 2.start=12, 1.end=28, 2.end=13
+1.res=0, 2.res=1, 1.start=25, 2.start=13, 1.end=28, 2.end=16
+1.res=0, 2.res=1, 1.start=25, 2.start=14, 1.end=28, 2.end=16
+1.res=0, 2.res=1, 1.start=25, 2.start=16, 1.end=28, 2.end=17
+1.res=0, 2.res=1, 1.start=25, 2.start=17, 1.end=28, 2.end=20
+1.res=0, 2.res=1, 1.start=25, 2.start=18, 1.end=28, 2.end=20
+1.res=0, 2.res=1, 1.start=25, 2.start=20, 1.end=28, 2.end=21
+1.res=0, 2.res=1, 1.start=25, 2.start=21, 1.end=28, 2.end=24
+1.res=0, 2.res=1, 1.start=25, 2.start=22, 1.end=28, 2.end=24
+1.res=0, 2.res=1, 1.start=25, 2.start=24, 1.end=28, 2.end=25
+1.res=0, 2.res=0, 1.start=25, 2.start=25, 1.end=28, 2.end=28
+1.res=0, 2.res=1, 1.start=26, 2.start=0, 1.end=28, 2.end=44
+1.res=0, 2.res=1, 1.start=26, 2.start=0, 1.end=28, 2.end=1
+1.res=0, 2.res=1, 1.start=26, 2.start=1, 1.end=28, 2.end=4
+1.res=0, 2.res=1, 1.start=26, 2.start=2, 1.end=28, 2.end=4
+1.res=0, 2.res=1, 1.start=26, 2.start=4, 1.end=28, 2.end=5
+1.res=0, 2.res=1, 1.start=26, 2.start=5, 1.end=28, 2.end=8
+1.res=0, 2.res=1, 1.start=26, 2.start=6, 1.end=28, 2.end=8
+1.res=0, 2.res=1, 1.start=26, 2.start=8, 1.end=28, 2.end=9
+1.res=0, 2.res=1, 1.start=26, 2.start=9, 1.end=28, 2.end=12
+1.res=0, 2.res=1, 1.start=26, 2.start=10, 1.end=28, 2.end=12
+1.res=0, 2.res=1, 1.start=26, 2.start=12, 1.end=28, 2.end=13
+1.res=0, 2.res=1, 1.start=26, 2.start=13, 1.end=28, 2.end=16
+1.res=0, 2.res=1, 1.start=26, 2.start=14, 1.end=28, 2.end=16
+1.res=0, 2.res=1, 1.start=26, 2.start=16, 1.end=28, 2.end=17
+1.res=0, 2.res=1, 1.start=26, 2.start=17, 1.end=28, 2.end=20
+1.res=0, 2.res=1, 1.start=26, 2.start=18, 1.end=28, 2.end=20
+1.res=0, 2.res=1, 1.start=26, 2.start=20, 1.end=28, 2.end=21
+1.res=0, 2.res=1, 1.start=26, 2.start=21, 1.end=28, 2.end=24
+1.res=0, 2.res=1, 1.start=26, 2.start=22, 1.end=28, 2.end=24
+1.res=0, 2.res=1, 1.start=26, 2.start=24, 1.end=28, 2.end=25
+1.res=0, 2.res=1, 1.start=26, 2.start=25, 1.end=28, 2.end=28
+1.res=0, 2.res=0, 1.start=26, 2.start=26, 1.end=28, 2.end=28
+1.res=0, 2.res=1, 1.start=28, 2.start=0, 1.end=29, 2.end=44
+1.res=0, 2.res=1, 1.start=28, 2.start=0, 1.end=29, 2.end=1
+1.res=0, 2.res=1, 1.start=28, 2.start=1, 1.end=29, 2.end=4
+1.res=0, 2.res=1, 1.start=28, 2.start=2, 1.end=29, 2.end=4
+1.res=0, 2.res=1, 1.start=28, 2.start=4, 1.end=29, 2.end=5
+1.res=0, 2.res=1, 1.start=28, 2.start=5, 1.end=29, 2.end=8
+1.res=0, 2.res=1, 1.start=28, 2.start=6, 1.end=29, 2.end=8
+1.res=0, 2.res=1, 1.start=28, 2.start=8, 1.end=29, 2.end=9
+1.res=0, 2.res=1, 1.start=28, 2.start=9, 1.end=29, 2.end=12
+1.res=0, 2.res=1, 1.start=28, 2.start=10, 1.end=29, 2.end=12
+1.res=0, 2.res=1, 1.start=28, 2.start=12, 1.end=29, 2.end=13
+1.res=0, 2.res=1, 1.start=28, 2.start=13, 1.end=29, 2.end=16
+1.res=0, 2.res=1, 1.start=28, 2.start=14, 1.end=29, 2.end=16
+1.res=0, 2.res=1, 1.start=28, 2.start=16, 1.end=29, 2.end=17
+1.res=0, 2.res=1, 1.start=28, 2.start=17, 1.end=29, 2.end=20
+1.res=0, 2.res=1, 1.start=28, 2.start=18, 1.end=29, 2.end=20
+1.res=0, 2.res=1, 1.start=28, 2.start=20, 1.end=29, 2.end=21
+1.res=0, 2.res=1, 1.start=28, 2.start=21, 1.end=29, 2.end=24
+1.res=0, 2.res=1, 1.start=28, 2.start=22, 1.end=29, 2.end=24
+1.res=0, 2.res=1, 1.start=28, 2.start=24, 1.end=29, 2.end=25
+1.res=0, 2.res=1, 1.start=28, 2.start=25, 1.end=29, 2.end=28
+1.res=0, 2.res=1, 1.start=28, 2.start=26, 1.end=29, 2.end=28
+1.res=0, 2.res=0, 1.start=28, 2.start=28, 1.end=29, 2.end=29
+1.res=0, 2.res=1, 1.start=29, 2.start=0, 1.end=32, 2.end=44
+1.res=0, 2.res=1, 1.start=29, 2.start=0, 1.end=32, 2.end=1
+1.res=0, 2.res=1, 1.start=29, 2.start=1, 1.end=32, 2.end=4
+1.res=0, 2.res=1, 1.start=29, 2.start=2, 1.end=32, 2.end=4
+1.res=0, 2.res=1, 1.start=29, 2.start=4, 1.end=32, 2.end=5
+1.res=0, 2.res=1, 1.start=29, 2.start=5, 1.end=32, 2.end=8
+1.res=0, 2.res=1, 1.start=29, 2.start=6, 1.end=32, 2.end=8
+1.res=0, 2.res=1, 1.start=29, 2.start=8, 1.end=32, 2.end=9
+1.res=0, 2.res=1, 1.start=29, 2.start=9, 1.end=32, 2.end=12
+1.res=0, 2.res=1, 1.start=29, 2.start=10, 1.end=32, 2.end=12
+1.res=0, 2.res=1, 1.start=29, 2.start=12, 1.end=32, 2.end=13
+1.res=0, 2.res=1, 1.start=29, 2.start=13, 1.end=32, 2.end=16
+1.res=0, 2.res=1, 1.start=29, 2.start=14, 1.end=32, 2.end=16
+1.res=0, 2.res=1, 1.start=29, 2.start=16, 1.end=32, 2.end=17
+1.res=0, 2.res=1, 1.start=29, 2.start=17, 1.end=32, 2.end=20
+1.res=0, 2.res=1, 1.start=29, 2.start=18, 1.end=32, 2.end=20
+1.res=0, 2.res=1, 1.start=29, 2.start=20, 1.end=32, 2.end=21
+1.res=0, 2.res=1, 1.start=29, 2.start=21, 1.end=32, 2.end=24
+1.res=0, 2.res=1, 1.start=29, 2.start=22, 1.end=32, 2.end=24
+1.res=0, 2.res=1, 1.start=29, 2.start=24, 1.end=32, 2.end=25
+1.res=0, 2.res=1, 1.start=29, 2.start=25, 1.end=32, 2.end=28
+1.res=0, 2.res=1, 1.start=29, 2.start=26, 1.end=32, 2.end=28
+1.res=0, 2.res=1, 1.start=29, 2.start=28, 1.end=32, 2.end=29
+1.res=0, 2.res=0, 1.start=29, 2.start=29, 1.end=32, 2.end=32
+1.res=0, 2.res=1, 1.start=30, 2.start=0, 1.end=32, 2.end=44
+1.res=0, 2.res=1, 1.start=30, 2.start=0, 1.end=32, 2.end=1
+1.res=0, 2.res=1, 1.start=30, 2.start=1, 1.end=32, 2.end=4
+1.res=0, 2.res=1, 1.start=30, 2.start=2, 1.end=32, 2.end=4
+1.res=0, 2.res=1, 1.start=30, 2.start=4, 1.end=32, 2.end=5
+1.res=0, 2.res=1, 1.start=30, 2.start=5, 1.end=32, 2.end=8
+1.res=0, 2.res=1, 1.start=30, 2.start=6, 1.end=32, 2.end=8
+1.res=0, 2.res=1, 1.start=30, 2.start=8, 1.end=32, 2.end=9
+1.res=0, 2.res=1, 1.start=30, 2.start=9, 1.end=32, 2.end=12
+1.res=0, 2.res=1, 1.start=30, 2.start=10, 1.end=32, 2.end=12
+1.res=0, 2.res=1, 1.start=30, 2.start=12, 1.end=32, 2.end=13
+1.res=0, 2.res=1, 1.start=30, 2.start=13, 1.end=32, 2.end=16
+1.res=0, 2.res=1, 1.start=30, 2.start=14, 1.end=32, 2.end=16
+1.res=0, 2.res=1, 1.start=30, 2.start=16, 1.end=32, 2.end=17
+1.res=0, 2.res=1, 1.start=30, 2.start=17, 1.end=32, 2.end=20
+1.res=0, 2.res=1, 1.start=30, 2.start=18, 1.end=32, 2.end=20
+1.res=0, 2.res=1, 1.start=30, 2.start=20, 1.end=32, 2.end=21
+1.res=0, 2.res=1, 1.start=30, 2.start=21, 1.end=32, 2.end=24
+1.res=0, 2.res=1, 1.start=30, 2.start=22, 1.end=32, 2.end=24
+1.res=0, 2.res=1, 1.start=30, 2.start=24, 1.end=32, 2.end=25
+1.res=0, 2.res=1, 1.start=30, 2.start=25, 1.end=32, 2.end=28
+1.res=0, 2.res=1, 1.start=30, 2.start=26, 1.end=32, 2.end=28
+1.res=0, 2.res=1, 1.start=30, 2.start=28, 1.end=32, 2.end=29
+1.res=0, 2.res=1, 1.start=30, 2.start=29, 1.end=32, 2.end=32
+1.res=0, 2.res=0, 1.start=30, 2.start=30, 1.end=32, 2.end=32
+1.res=0, 2.res=1, 1.start=32, 2.start=0, 1.end=33, 2.end=44
+1.res=0, 2.res=1, 1.start=32, 2.start=0, 1.end=33, 2.end=1
+1.res=0, 2.res=1, 1.start=32, 2.start=1, 1.end=33, 2.end=4
+1.res=0, 2.res=1, 1.start=32, 2.start=2, 1.end=33, 2.end=4
+1.res=0, 2.res=1, 1.start=32, 2.start=4, 1.end=33, 2.end=5
+1.res=0, 2.res=1, 1.start=32, 2.start=5, 1.end=33, 2.end=8
+1.res=0, 2.res=1, 1.start=32, 2.start=6, 1.end=33, 2.end=8
+1.res=0, 2.res=1, 1.start=32, 2.start=8, 1.end=33, 2.end=9
+1.res=0, 2.res=1, 1.start=32, 2.start=9, 1.end=33, 2.end=12
+1.res=0, 2.res=1, 1.start=32, 2.start=10, 1.end=33, 2.end=12
+1.res=0, 2.res=1, 1.start=32, 2.start=12, 1.end=33, 2.end=13
+1.res=0, 2.res=1, 1.start=32, 2.start=13, 1.end=33, 2.end=16
+1.res=0, 2.res=1, 1.start=32, 2.start=14, 1.end=33, 2.end=16
+1.res=0, 2.res=1, 1.start=32, 2.start=16, 1.end=33, 2.end=17
+1.res=0, 2.res=1, 1.start=32, 2.start=17, 1.end=33, 2.end=20
+1.res=0, 2.res=1, 1.start=32, 2.start=18, 1.end=33, 2.end=20
+1.res=0, 2.res=1, 1.start=32, 2.start=20, 1.end=33, 2.end=21
+1.res=0, 2.res=1, 1.start=32, 2.start=21, 1.end=33, 2.end=24
+1.res=0, 2.res=1, 1.start=32, 2.start=22, 1.end=33, 2.end=24
+1.res=0, 2.res=1, 1.start=32, 2.start=24, 1.end=33, 2.end=25
+1.res=0, 2.res=1, 1.start=32, 2.start=25, 1.end=33, 2.end=28
+1.res=0, 2.res=1, 1.start=32, 2.start=26, 1.end=33, 2.end=28
+1.res=0, 2.res=1, 1.start=32, 2.start=28, 1.end=33, 2.end=29
+1.res=0, 2.res=1, 1.start=32, 2.start=29, 1.end=33, 2.end=32
+1.res=0, 2.res=1, 1.start=32, 2.start=30, 1.end=33, 2.end=32
+1.res=0, 2.res=0, 1.start=32, 2.start=32, 1.end=33, 2.end=33
+1.res=0, 2.res=1, 1.start=33, 2.start=0, 1.end=36, 2.end=44
+1.res=0, 2.res=1, 1.start=33, 2.start=0, 1.end=36, 2.end=1
+1.res=0, 2.res=1, 1.start=33, 2.start=1, 1.end=36, 2.end=4
+1.res=0, 2.res=1, 1.start=33, 2.start=2, 1.end=36, 2.end=4
+1.res=0, 2.res=1, 1.start=33, 2.start=4, 1.end=36, 2.end=5
+1.res=0, 2.res=1, 1.start=33, 2.start=5, 1.end=36, 2.end=8
+1.res=0, 2.res=1, 1.start=33, 2.start=6, 1.end=36, 2.end=8
+1.res=0, 2.res=1, 1.start=33, 2.start=8, 1.end=36, 2.end=9
+1.res=0, 2.res=1, 1.start=33, 2.start=9, 1.end=36, 2.end=12
+1.res=0, 2.res=1, 1.start=33, 2.start=10, 1.end=36, 2.end=12
+1.res=0, 2.res=1, 1.start=33, 2.start=12, 1.end=36, 2.end=13
+1.res=0, 2.res=1, 1.start=33, 2.start=13, 1.end=36, 2.end=16
+1.res=0, 2.res=1, 1.start=33, 2.start=14, 1.end=36, 2.end=16
+1.res=0, 2.res=1, 1.start=33, 2.start=16, 1.end=36, 2.end=17
+1.res=0, 2.res=1, 1.start=33, 2.start=17, 1.end=36, 2.end=20
+1.res=0, 2.res=1, 1.start=33, 2.start=18, 1.end=36, 2.end=20
+1.res=0, 2.res=1, 1.start=33, 2.start=20, 1.end=36, 2.end=21
+1.res=0, 2.res=1, 1.start=33, 2.start=21, 1.end=36, 2.end=24
+1.res=0, 2.res=1, 1.start=33, 2.start=22, 1.end=36, 2.end=24
+1.res=0, 2.res=1, 1.start=33, 2.start=24, 1.end=36, 2.end=25
+1.res=0, 2.res=1, 1.start=33, 2.start=25, 1.end=36, 2.end=28
+1.res=0, 2.res=1, 1.start=33, 2.start=26, 1.end=36, 2.end=28
+1.res=0, 2.res=1, 1.start=33, 2.start=28, 1.end=36, 2.end=29
+1.res=0, 2.res=1, 1.start=33, 2.start=29, 1.end=36, 2.end=32
+1.res=0, 2.res=1, 1.start=33, 2.start=30, 1.end=36, 2.end=32
+1.res=0, 2.res=1, 1.start=33, 2.start=32, 1.end=36, 2.end=33
+1.res=0, 2.res=0, 1.start=33, 2.start=33, 1.end=36, 2.end=36
+1.res=0, 2.res=1, 1.start=34, 2.start=0, 1.end=36, 2.end=44
+1.res=0, 2.res=1, 1.start=34, 2.start=0, 1.end=36, 2.end=1
+1.res=0, 2.res=1, 1.start=34, 2.start=1, 1.end=36, 2.end=4
+1.res=0, 2.res=1, 1.start=34, 2.start=2, 1.end=36, 2.end=4
+1.res=0, 2.res=1, 1.start=34, 2.start=4, 1.end=36, 2.end=5
+1.res=0, 2.res=1, 1.start=34, 2.start=5, 1.end=36, 2.end=8
+1.res=0, 2.res=1, 1.start=34, 2.start=6, 1.end=36, 2.end=8
+1.res=0, 2.res=1, 1.start=34, 2.start=8, 1.end=36, 2.end=9
+1.res=0, 2.res=1, 1.start=34, 2.start=9, 1.end=36, 2.end=12
+1.res=0, 2.res=1, 1.start=34, 2.start=10, 1.end=36, 2.end=12
+1.res=0, 2.res=1, 1.start=34, 2.start=12, 1.end=36, 2.end=13
+1.res=0, 2.res=1, 1.start=34, 2.start=13, 1.end=36, 2.end=16
+1.res=0, 2.res=1, 1.start=34, 2.start=14, 1.end=36, 2.end=16
+1.res=0, 2.res=1, 1.start=34, 2.start=16, 1.end=36, 2.end=17
+1.res=0, 2.res=1, 1.start=34, 2.start=17, 1.end=36, 2.end=20
+1.res=0, 2.res=1, 1.start=34, 2.start=18, 1.end=36, 2.end=20
+1.res=0, 2.res=1, 1.start=34, 2.start=20, 1.end=36, 2.end=21
+1.res=0, 2.res=1, 1.start=34, 2.start=21, 1.end=36, 2.end=24
+1.res=0, 2.res=1, 1.start=34, 2.start=22, 1.end=36, 2.end=24
+1.res=0, 2.res=1, 1.start=34, 2.start=24, 1.end=36, 2.end=25
+1.res=0, 2.res=1, 1.start=34, 2.start=25, 1.end=36, 2.end=28
+1.res=0, 2.res=1, 1.start=34, 2.start=26, 1.end=36, 2.end=28
+1.res=0, 2.res=1, 1.start=34, 2.start=28, 1.end=36, 2.end=29
+1.res=0, 2.res=1, 1.start=34, 2.start=29, 1.end=36, 2.end=32
+1.res=0, 2.res=1, 1.start=34, 2.start=30, 1.end=36, 2.end=32
+1.res=0, 2.res=1, 1.start=34, 2.start=32, 1.end=36, 2.end=33
+1.res=0, 2.res=1, 1.start=34, 2.start=33, 1.end=36, 2.end=36
+1.res=0, 2.res=0, 1.start=34, 2.start=34, 1.end=36, 2.end=36
+1.res=0, 2.res=1, 1.start=36, 2.start=0, 1.end=37, 2.end=44
+1.res=0, 2.res=1, 1.start=36, 2.start=0, 1.end=37, 2.end=1
+1.res=0, 2.res=1, 1.start=36, 2.start=1, 1.end=37, 2.end=4
+1.res=0, 2.res=1, 1.start=36, 2.start=2, 1.end=37, 2.end=4
+1.res=0, 2.res=1, 1.start=36, 2.start=4, 1.end=37, 2.end=5
+1.res=0, 2.res=1, 1.start=36, 2.start=5, 1.end=37, 2.end=8
+1.res=0, 2.res=1, 1.start=36, 2.start=6, 1.end=37, 2.end=8
+1.res=0, 2.res=1, 1.start=36, 2.start=8, 1.end=37, 2.end=9
+1.res=0, 2.res=1, 1.start=36, 2.start=9, 1.end=37, 2.end=12
+1.res=0, 2.res=1, 1.start=36, 2.start=10, 1.end=37, 2.end=12
+1.res=0, 2.res=1, 1.start=36, 2.start=12, 1.end=37, 2.end=13
+1.res=0, 2.res=1, 1.start=36, 2.start=13, 1.end=37, 2.end=16
+1.res=0, 2.res=1, 1.start=36, 2.start=14, 1.end=37, 2.end=16
+1.res=0, 2.res=1, 1.start=36, 2.start=16, 1.end=37, 2.end=17
+1.res=0, 2.res=1, 1.start=36, 2.start=17, 1.end=37, 2.end=20
+1.res=0, 2.res=1, 1.start=36, 2.start=18, 1.end=37, 2.end=20
+1.res=0, 2.res=1, 1.start=36, 2.start=20, 1.end=37, 2.end=21
+1.res=0, 2.res=1, 1.start=36, 2.start=21, 1.end=37, 2.end=24
+1.res=0, 2.res=1, 1.start=36, 2.start=22, 1.end=37, 2.end=24
+1.res=0, 2.res=1, 1.start=36, 2.start=24, 1.end=37, 2.end=25
+1.res=0, 2.res=1, 1.start=36, 2.start=25, 1.end=37, 2.end=28
+1.res=0, 2.res=1, 1.start=36, 2.start=26, 1.end=37, 2.end=28
+1.res=0, 2.res=1, 1.start=36, 2.start=28, 1.end=37, 2.end=29
+1.res=0, 2.res=1, 1.start=36, 2.start=29, 1.end=37, 2.end=32
+1.res=0, 2.res=1, 1.start=36, 2.start=30, 1.end=37, 2.end=32
+1.res=0, 2.res=1, 1.start=36, 2.start=32, 1.end=37, 2.end=33
+1.res=0, 2.res=1, 1.start=36, 2.start=33, 1.end=37, 2.end=36
+1.res=0, 2.res=1, 1.start=36, 2.start=34, 1.end=37, 2.end=36
+1.res=0, 2.res=0, 1.start=36, 2.start=36, 1.end=37, 2.end=37
+1.res=0, 2.res=1, 1.start=37, 2.start=0, 1.end=40, 2.end=44
+1.res=0, 2.res=1, 1.start=37, 2.start=0, 1.end=40, 2.end=1
+1.res=0, 2.res=1, 1.start=37, 2.start=1, 1.end=40, 2.end=4
+1.res=0, 2.res=1, 1.start=37, 2.start=2, 1.end=40, 2.end=4
+1.res=0, 2.res=1, 1.start=37, 2.start=4, 1.end=40, 2.end=5
+1.res=0, 2.res=1, 1.start=37, 2.start=5, 1.end=40, 2.end=8
+1.res=0, 2.res=1, 1.start=37, 2.start=6, 1.end=40, 2.end=8
+1.res=0, 2.res=1, 1.start=37, 2.start=8, 1.end=40, 2.end=9
+1.res=0, 2.res=1, 1.start=37, 2.start=9, 1.end=40, 2.end=12
+1.res=0, 2.res=1, 1.start=37, 2.start=10, 1.end=40, 2.end=12
+1.res=0, 2.res=1, 1.start=37, 2.start=12, 1.end=40, 2.end=13
+1.res=0, 2.res=1, 1.start=37, 2.start=13, 1.end=40, 2.end=16
+1.res=0, 2.res=1, 1.start=37, 2.start=14, 1.end=40, 2.end=16
+1.res=0, 2.res=1, 1.start=37, 2.start=16, 1.end=40, 2.end=17
+1.res=0, 2.res=1, 1.start=37, 2.start=17, 1.end=40, 2.end=20
+1.res=0, 2.res=1, 1.start=37, 2.start=18, 1.end=40, 2.end=20
+1.res=0, 2.res=1, 1.start=37, 2.start=20, 1.end=40, 2.end=21
+1.res=0, 2.res=1, 1.start=37, 2.start=21, 1.end=40, 2.end=24
+1.res=0, 2.res=1, 1.start=37, 2.start=22, 1.end=40, 2.end=24
+1.res=0, 2.res=1, 1.start=37, 2.start=24, 1.end=40, 2.end=25
+1.res=0, 2.res=1, 1.start=37, 2.start=25, 1.end=40, 2.end=28
+1.res=0, 2.res=1, 1.start=37, 2.start=26, 1.end=40, 2.end=28
+1.res=0, 2.res=1, 1.start=37, 2.start=28, 1.end=40, 2.end=29
+1.res=0, 2.res=1, 1.start=37, 2.start=29, 1.end=40, 2.end=32
+1.res=0, 2.res=1, 1.start=37, 2.start=30, 1.end=40, 2.end=32
+1.res=0, 2.res=1, 1.start=37, 2.start=32, 1.end=40, 2.end=33
+1.res=0, 2.res=1, 1.start=37, 2.start=33, 1.end=40, 2.end=36
+1.res=0, 2.res=1, 1.start=37, 2.start=34, 1.end=40, 2.end=36
+1.res=0, 2.res=1, 1.start=37, 2.start=36, 1.end=40, 2.end=37
+1.res=0, 2.res=0, 1.start=37, 2.start=37, 1.end=40, 2.end=40
+1.res=0, 2.res=1, 1.start=38, 2.start=0, 1.end=40, 2.end=44
+1.res=0, 2.res=1, 1.start=38, 2.start=0, 1.end=40, 2.end=1
+1.res=0, 2.res=1, 1.start=38, 2.start=1, 1.end=40, 2.end=4
+1.res=0, 2.res=1, 1.start=38, 2.start=2, 1.end=40, 2.end=4
+1.res=0, 2.res=1, 1.start=38, 2.start=4, 1.end=40, 2.end=5
+1.res=0, 2.res=1, 1.start=38, 2.start=5, 1.end=40, 2.end=8
+1.res=0, 2.res=1, 1.start=38, 2.start=6, 1.end=40, 2.end=8
+1.res=0, 2.res=1, 1.start=38, 2.start=8, 1.end=40, 2.end=9
+1.res=0, 2.res=1, 1.start=38, 2.start=9, 1.end=40, 2.end=12
+1.res=0, 2.res=1, 1.start=38, 2.start=10, 1.end=40, 2.end=12
+1.res=0, 2.res=1, 1.start=38, 2.start=12, 1.end=40, 2.end=13
+1.res=0, 2.res=1, 1.start=38, 2.start=13, 1.end=40, 2.end=16
+1.res=0, 2.res=1, 1.start=38, 2.start=14, 1.end=40, 2.end=16
+1.res=0, 2.res=1, 1.start=38, 2.start=16, 1.end=40, 2.end=17
+1.res=0, 2.res=1, 1.start=38, 2.start=17, 1.end=40, 2.end=20
+1.res=0, 2.res=1, 1.start=38, 2.start=18, 1.end=40, 2.end=20
+1.res=0, 2.res=1, 1.start=38, 2.start=20, 1.end=40, 2.end=21
+1.res=0, 2.res=1, 1.start=38, 2.start=21, 1.end=40, 2.end=24
+1.res=0, 2.res=1, 1.start=38, 2.start=22, 1.end=40, 2.end=24
+1.res=0, 2.res=1, 1.start=38, 2.start=24, 1.end=40, 2.end=25
+1.res=0, 2.res=1, 1.start=38, 2.start=25, 1.end=40, 2.end=28
+1.res=0, 2.res=1, 1.start=38, 2.start=26, 1.end=40, 2.end=28
+1.res=0, 2.res=1, 1.start=38, 2.start=28, 1.end=40, 2.end=29
+1.res=0, 2.res=1, 1.start=38, 2.start=29, 1.end=40, 2.end=32
+1.res=0, 2.res=1, 1.start=38, 2.start=30, 1.end=40, 2.end=32
+1.res=0, 2.res=1, 1.start=38, 2.start=32, 1.end=40, 2.end=33
+1.res=0, 2.res=1, 1.start=38, 2.start=33, 1.end=40, 2.end=36
+1.res=0, 2.res=1, 1.start=38, 2.start=34, 1.end=40, 2.end=36
+1.res=0, 2.res=1, 1.start=38, 2.start=36, 1.end=40, 2.end=37
+1.res=0, 2.res=1, 1.start=38, 2.start=37, 1.end=40, 2.end=40
+1.res=0, 2.res=0, 1.start=38, 2.start=38, 1.end=40, 2.end=40
+1.res=0, 2.res=1, 1.start=40, 2.start=0, 1.end=41, 2.end=44
+1.res=0, 2.res=1, 1.start=40, 2.start=0, 1.end=41, 2.end=1
+1.res=0, 2.res=1, 1.start=40, 2.start=1, 1.end=41, 2.end=4
+1.res=0, 2.res=1, 1.start=40, 2.start=2, 1.end=41, 2.end=4
+1.res=0, 2.res=1, 1.start=40, 2.start=4, 1.end=41, 2.end=5
+1.res=0, 2.res=1, 1.start=40, 2.start=5, 1.end=41, 2.end=8
+1.res=0, 2.res=1, 1.start=40, 2.start=6, 1.end=41, 2.end=8
+1.res=0, 2.res=1, 1.start=40, 2.start=8, 1.end=41, 2.end=9
+1.res=0, 2.res=1, 1.start=40, 2.start=9, 1.end=41, 2.end=12
+1.res=0, 2.res=1, 1.start=40, 2.start=10, 1.end=41, 2.end=12
+1.res=0, 2.res=1, 1.start=40, 2.start=12, 1.end=41, 2.end=13
+1.res=0, 2.res=1, 1.start=40, 2.start=13, 1.end=41, 2.end=16
+1.res=0, 2.res=1, 1.start=40, 2.start=14, 1.end=41, 2.end=16
+1.res=0, 2.res=1, 1.start=40, 2.start=16, 1.end=41, 2.end=17
+1.res=0, 2.res=1, 1.start=40, 2.start=17, 1.end=41, 2.end=20
+1.res=0, 2.res=1, 1.start=40, 2.start=18, 1.end=41, 2.end=20
+1.res=0, 2.res=1, 1.start=40, 2.start=20, 1.end=41, 2.end=21
+1.res=0, 2.res=1, 1.start=40, 2.start=21, 1.end=41, 2.end=24
+1.res=0, 2.res=1, 1.start=40, 2.start=22, 1.end=41, 2.end=24
+1.res=0, 2.res=1, 1.start=40, 2.start=24, 1.end=41, 2.end=25
+1.res=0, 2.res=1, 1.start=40, 2.start=25, 1.end=41, 2.end=28
+1.res=0, 2.res=1, 1.start=40, 2.start=26, 1.end=41, 2.end=28
+1.res=0, 2.res=1, 1.start=40, 2.start=28, 1.end=41, 2.end=29
+1.res=0, 2.res=1, 1.start=40, 2.start=29, 1.end=41, 2.end=32
+1.res=0, 2.res=1, 1.start=40, 2.start=30, 1.end=41, 2.end=32
+1.res=0, 2.res=1, 1.start=40, 2.start=32, 1.end=41, 2.end=33
+1.res=0, 2.res=1, 1.start=40, 2.start=33, 1.end=41, 2.end=36
+1.res=0, 2.res=1, 1.start=40, 2.start=34, 1.end=41, 2.end=36
+1.res=0, 2.res=1, 1.start=40, 2.start=36, 1.end=41, 2.end=37
+1.res=0, 2.res=1, 1.start=40, 2.start=37, 1.end=41, 2.end=40
+1.res=0, 2.res=1, 1.start=40, 2.start=38, 1.end=41, 2.end=40
+1.res=0, 2.res=0, 1.start=40, 2.start=40, 1.end=41, 2.end=41
+1.res=0, 2.res=1, 1.start=41, 2.start=0, 1.end=44, 2.end=44
+1.res=0, 2.res=1, 1.start=41, 2.start=0, 1.end=44, 2.end=1
+1.res=0, 2.res=1, 1.start=41, 2.start=1, 1.end=44, 2.end=4
+1.res=0, 2.res=1, 1.start=41, 2.start=2, 1.end=44, 2.end=4
+1.res=0, 2.res=1, 1.start=41, 2.start=4, 1.end=44, 2.end=5
+1.res=0, 2.res=1, 1.start=41, 2.start=5, 1.end=44, 2.end=8
+1.res=0, 2.res=1, 1.start=41, 2.start=6, 1.end=44, 2.end=8
+1.res=0, 2.res=1, 1.start=41, 2.start=8, 1.end=44, 2.end=9
+1.res=0, 2.res=1, 1.start=41, 2.start=9, 1.end=44, 2.end=12
+1.res=0, 2.res=1, 1.start=41, 2.start=10, 1.end=44, 2.end=12
+1.res=0, 2.res=1, 1.start=41, 2.start=12, 1.end=44, 2.end=13
+1.res=0, 2.res=1, 1.start=41, 2.start=13, 1.end=44, 2.end=16
+1.res=0, 2.res=1, 1.start=41, 2.start=14, 1.end=44, 2.end=16
+1.res=0, 2.res=1, 1.start=41, 2.start=16, 1.end=44, 2.end=17
+1.res=0, 2.res=1, 1.start=41, 2.start=17, 1.end=44, 2.end=20
+1.res=0, 2.res=1, 1.start=41, 2.start=18, 1.end=44, 2.end=20
+1.res=0, 2.res=1, 1.start=41, 2.start=20, 1.end=44, 2.end=21
+1.res=0, 2.res=1, 1.start=41, 2.start=21, 1.end=44, 2.end=24
+1.res=0, 2.res=1, 1.start=41, 2.start=22, 1.end=44, 2.end=24
+1.res=0, 2.res=1, 1.start=41, 2.start=24, 1.end=44, 2.end=25
+1.res=0, 2.res=1, 1.start=41, 2.start=25, 1.end=44, 2.end=28
+1.res=0, 2.res=1, 1.start=41, 2.start=26, 1.end=44, 2.end=28
+1.res=0, 2.res=1, 1.start=41, 2.start=28, 1.end=44, 2.end=29
+1.res=0, 2.res=1, 1.start=41, 2.start=29, 1.end=44, 2.end=32
+1.res=0, 2.res=1, 1.start=41, 2.start=30, 1.end=44, 2.end=32
+1.res=0, 2.res=1, 1.start=41, 2.start=32, 1.end=44, 2.end=33
+1.res=0, 2.res=1, 1.start=41, 2.start=33, 1.end=44, 2.end=36
+1.res=0, 2.res=1, 1.start=41, 2.start=34, 1.end=44, 2.end=36
+1.res=0, 2.res=1, 1.start=41, 2.start=36, 1.end=44, 2.end=37
+1.res=0, 2.res=1, 1.start=41, 2.start=37, 1.end=44, 2.end=40
+1.res=0, 2.res=1, 1.start=41, 2.start=38, 1.end=44, 2.end=40
+1.res=0, 2.res=1, 1.start=41, 2.start=40, 1.end=44, 2.end=41
+1.res=0, 2.res=0, 1.start=41, 2.start=41, 1.end=44, 2.end=44
+1.res=0, 2.res=1, 1.start=42, 2.start=0, 1.end=44, 2.end=44
+1.res=0, 2.res=1, 1.start=42, 2.start=0, 1.end=44, 2.end=1
+1.res=0, 2.res=1, 1.start=42, 2.start=1, 1.end=44, 2.end=4
+1.res=0, 2.res=1, 1.start=42, 2.start=2, 1.end=44, 2.end=4
+1.res=0, 2.res=1, 1.start=42, 2.start=4, 1.end=44, 2.end=5
+1.res=0, 2.res=1, 1.start=42, 2.start=5, 1.end=44, 2.end=8
+1.res=0, 2.res=1, 1.start=42, 2.start=6, 1.end=44, 2.end=8
+1.res=0, 2.res=1, 1.start=42, 2.start=8, 1.end=44, 2.end=9
+1.res=0, 2.res=1, 1.start=42, 2.start=9, 1.end=44, 2.end=12
+1.res=0, 2.res=1, 1.start=42, 2.start=10, 1.end=44, 2.end=12
+1.res=0, 2.res=1, 1.start=42, 2.start=12, 1.end=44, 2.end=13
+1.res=0, 2.res=1, 1.start=42, 2.start=13, 1.end=44, 2.end=16
+1.res=0, 2.res=1, 1.start=42, 2.start=14, 1.end=44, 2.end=16
+1.res=0, 2.res=1, 1.start=42, 2.start=16, 1.end=44, 2.end=17
+1.res=0, 2.res=1, 1.start=42, 2.start=17, 1.end=44, 2.end=20
+1.res=0, 2.res=1, 1.start=42, 2.start=18, 1.end=44, 2.end=20
+1.res=0, 2.res=1, 1.start=42, 2.start=20, 1.end=44, 2.end=21
+1.res=0, 2.res=1, 1.start=42, 2.start=21, 1.end=44, 2.end=24
+1.res=0, 2.res=1, 1.start=42, 2.start=22, 1.end=44, 2.end=24
+1.res=0, 2.res=1, 1.start=42, 2.start=24, 1.end=44, 2.end=25
+1.res=0, 2.res=1, 1.start=42, 2.start=25, 1.end=44, 2.end=28
+1.res=0, 2.res=1, 1.start=42, 2.start=26, 1.end=44, 2.end=28
+1.res=0, 2.res=1, 1.start=42, 2.start=28, 1.end=44, 2.end=29
+1.res=0, 2.res=1, 1.start=42, 2.start=29, 1.end=44, 2.end=32
+1.res=0, 2.res=1, 1.start=42, 2.start=30, 1.end=44, 2.end=32
+1.res=0, 2.res=1, 1.start=42, 2.start=32, 1.end=44, 2.end=33
+1.res=0, 2.res=1, 1.start=42, 2.start=33, 1.end=44, 2.end=36
+1.res=0, 2.res=1, 1.start=42, 2.start=34, 1.end=44, 2.end=36
+1.res=0, 2.res=1, 1.start=42, 2.start=36, 1.end=44, 2.end=37
+1.res=0, 2.res=1, 1.start=42, 2.start=37, 1.end=44, 2.end=40
+1.res=0, 2.res=1, 1.start=42, 2.start=38, 1.end=44, 2.end=40
+1.res=0, 2.res=1, 1.start=42, 2.start=40, 1.end=44, 2.end=41
+1.res=0, 2.res=1, 1.start=42, 2.start=41, 1.end=44, 2.end=44
+1.res=0, 2.res=0, 1.start=42, 2.start=42, 1.end=44, 2.end=44
+  22   44    0  100.00 100.00    34     34   34      0     44    44   100.00
+-<1>---(wn1= 44, bn1= 34)-           -<2>---(wn2= 44, bn2= 34)-
+  0 : 1 : P       this                    0 : 1 : P       this            
+  1 : 1 : Q       is                      1 : 1 : Q       is              
+  2 : 1 : R       a                       2 : 1 : R       a               
+  3 : 1 : T       test                    3 : 1 : T       test            
+  4 : 1 : P       this                    4 : 1 : P       this            
+  5 : 1 : Q       is                      5 : 1 : Q       is              
+  6 : 1 : R       a                       6 : 1 : R       a               
+  7 : 1 : T       test                    7 : 1 : T       test            
+  8 : 1 : P       this                    8 : 1 : P       this            
+  9 : 1 : Q       is                      9 : 1 : Q       is              
+ 10 : 1 : R       a                      10 : 1 : R       a               
+ 11 : 1 : T       test                   11 : 1 : T       test            
+ 12 : 1 : P       this                   12 : 1 : P       this            
+ 13 : 1 : Q       is                     13 : 1 : Q       is              
+ 14 : 1 : R       a                      14 : 1 : R       a               
+ 15 : 1 : T       test                   15 : 1 : T       test            
+ 16 : 1 : P       this                   16 : 1 : P       this            
+ 17 : 1 : Q       is                     17 : 1 : Q       is              
+ 18 : 1 : R       a                      18 : 1 : R       a               
+ 19 : 1 : T       test                   19 : 1 : T       test            
+ 20 : 1 : P       this                   20 : 1 : P       this            
+ 21 : 1 : Q       is                     21 : 1 : Q       is              
+ 22 : 1 : R       a                      22 : 1 : R       a               
+ 23 : 1 : T       test                   23 : 1 : T       test            
+ 24 : 1 : P       this                   24 : 1 : P       this            
+ 25 : 1 : Q       is                     25 : 1 : Q       is              
+ 26 : 1 : R       a                      26 : 1 : R       a               
+ 27 : 1 : T       test                   27 : 1 : T       test            
+ 28 : 1 : P       this                   28 : 1 : P       this            
+ 29 : 1 : Q       is                     29 : 1 : Q       is              
+ 30 : 1 : R       a                      30 : 1 : R       a               
+ 31 : 1 : T       test                   31 : 1 : T       test            
+ 32 : 1 : P       this                   32 : 1 : P       this            
+ 33 : 1 : Q       is                     33 : 1 : Q       is              
+ 34 : 1 : R       a                      34 : 1 : R       a               
+ 35 : 1 : T       test                   35 : 1 : T       test            
+ 36 : 1 : P       this                   36 : 1 : P       this            
+ 37 : 1 : Q       is                     37 : 1 : Q       is              
+ 38 : 1 : R       a                      38 : 1 : R       a               
+ 39 : 1 : T       test                   39 : 1 : T       test            
+ 40 : 1 : P       this                   40 : 1 : P       this            
+ 41 : 1 : Q       is                     41 : 1 : Q       is              
+ 42 : 1 : R       a                      42 : 1 : R       a               
+ 43 : 1 : T       test                   43 : 1 : T       test            
+
+  0 : 1 :   0   44  S             0 : 1 :   0   44  S     
+  1 : 1 :   0    1  A             1 : 1 :   0    1  A     
+  2 : 1 :   1    4  B             2 : 1 :   1    4  B     
+  3 : 1 :   2    4  A             3 : 1 :   2    4  A     
+  4 : 1 :   4    5  A             4 : 1 :   4    5  A     
+  5 : 1 :   5    8  B             5 : 1 :   5    8  B     
+  6 : 1 :   6    8  A             6 : 1 :   6    8  A     
+  7 : 1 :   8    9  A             7 : 1 :   8    9  A     
+  8 : 1 :   9   12  B             8 : 1 :   9   12  B     
+  9 : 1 :  10   12  A             9 : 1 :  10   12  A     
+ 10 : 1 :  12   13  A            10 : 1 :  12   13  A     
+ 11 : 1 :  13   16  B            11 : 1 :  13   16  B     
+ 12 : 1 :  14   16  A            12 : 1 :  14   16  A     
+ 13 : 1 :  16   17  A            13 : 1 :  16   17  A     
+ 14 : 1 :  17   20  B            14 : 1 :  17   20  B     
+ 15 : 1 :  18   20  A            15 : 1 :  18   20  A     
+ 16 : 1 :  20   21  A            16 : 1 :  20   21  A     
+ 17 : 1 :  21   24  B            17 : 1 :  21   24  B     
+ 18 : 1 :  22   24  A            18 : 1 :  22   24  A     
+ 19 : 1 :  24   25  A            19 : 1 :  24   25  A     
+ 20 : 1 :  25   28  B            20 : 1 :  25   28  B     
+ 21 : 1 :  26   28  A            21 : 1 :  26   28  A     
+ 22 : 1 :  28   29  A            22 : 1 :  28   29  A     
+ 23 : 1 :  29   32  B            23 : 1 :  29   32  B     
+ 24 : 1 :  30   32  A            24 : 1 :  30   32  A     
+ 25 : 1 :  32   33  A            25 : 1 :  32   33  A     
+ 26 : 1 :  33   36  B            26 : 1 :  33   36  B     
+ 27 : 1 :  34   36  A            27 : 1 :  34   36  A     
+ 28 : 1 :  36   37  A            28 : 1 :  36   37  A     
+ 29 : 1 :  37   40  B            29 : 1 :  37   40  B     
+ 30 : 1 :  38   40  A            30 : 1 :  38   40  A     
+ 31 : 1 :  40   41  A            31 : 1 :  40   41  A     
+ 32 : 1 :  41   44  B            32 : 1 :  41   44  B     
+ 33 : 1 :  42   44  A            33 : 1 :  42   44  A     
+
+========
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+label=-NONE-, word=*, wid=4
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+label=-NONE-, word=*, wid=4
+
+1.res=0, 2.res=0, 1.start=0, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=0, 2.start=0, 1.end=1, 2.end=4
+1.res=0, 2.res=0, 1.start=0, 2.start=0, 1.end=1, 2.end=1
+1.res=0, 2.res=1, 1.start=1, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=1, 2.start=0, 1.end=4, 2.end=1
+1.res=0, 2.res=0, 1.start=1, 2.start=1, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=2, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=2, 2.start=0, 1.end=4, 2.end=1
+1.res=0, 2.res=1, 1.start=2, 2.start=1, 1.end=4, 2.end=4
+1.res=0, 2.res=0, 1.start=2, 2.start=2, 1.end=4, 2.end=4
+  23    4    0  100.00 100.00     4      4    4      0      4     4   100.00
+-<1>---(wn1=  4, bn1=  4)-           -<2>---(wn2=  4, bn2=  4)-
+  0 : 1 : P       this                    0 : 1 : P       this            
+  1 : 1 : Q       is                      1 : 1 : Q       is              
+  2 : 1 : R       a                       2 : 1 : R       a               
+  3 : 1 : T       test                    3 : 1 : T       test            
+
+  0 : 1 :   0    4  S             0 : 1 :   0    4  S     
+  1 : 1 :   0    1  A             1 : 1 :   0    1  A     
+  2 : 1 :   1    4  B             2 : 1 :   1    4  B     
+  3 : 1 :   2    4  A             3 : 1 :   2    4  A     
+
+========
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+label=:, word=*, wid=4
+label=S, word=, wid=0
+label=A, word=, wid=0
+label=P, word=this, wid=0
+label=B, word=, wid=1
+label=Q, word=is, wid=1
+label=A, word=, wid=2
+label=R, word=a, wid=2
+label=T, word=test, wid=3
+label=:, word=*, wid=4
+
+1.res=0, 2.res=0, 1.start=0, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=0, 2.start=0, 1.end=1, 2.end=4
+1.res=0, 2.res=0, 1.start=0, 2.start=0, 1.end=1, 2.end=1
+1.res=0, 2.res=1, 1.start=1, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=1, 2.start=0, 1.end=4, 2.end=1
+1.res=0, 2.res=0, 1.start=1, 2.start=1, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=2, 2.start=0, 1.end=4, 2.end=4
+1.res=0, 2.res=1, 1.start=2, 2.start=0, 1.end=4, 2.end=1
+1.res=0, 2.res=1, 1.start=2, 2.start=1, 1.end=4, 2.end=4
+1.res=0, 2.res=0, 1.start=2, 2.start=2, 1.end=4, 2.end=4
+  24    5    0  100.00 100.00     4      4    4      0      4     4   100.00
+-<1>---(wn1=  4, bn1=  4)-           -<2>---(wn2=  4, bn2=  4)-
+  0 : 1 : P       this                    0 : 1 : P       this            
+  1 : 1 : Q       is                      1 : 1 : Q       is              
+  2 : 1 : R       a                       2 : 1 : R       a               
+  3 : 1 : T       test                    3 : 1 : T       test            
+
+  0 : 1 :   0    4  S             0 : 1 :   0    4  S     
+  1 : 1 :   0    1  A             1 : 1 :   0    1  A     
+  2 : 1 :   1    4  B             2 : 1 :   1    4  B     
+  3 : 1 :   2    4  A             3 : 1 :   2    4  A     
+
+========
+============================================================================
+                 87.76  90.53     86    98    95      1    108   106    98.15
+=== Summary ===
+
+-- All --
+Number of sentence        =     24
+Number of Error sentence  =      5
+Number of Skip  sentence  =      2
+Number of Valid sentence  =     17
+Bracketing Recall         =  87.76
+Bracketing Precision      =  90.53
+Bracketing FMeasure       =  89.12
+Complete match            =  52.94
+Average crossing          =   0.06
+No crossing               =  94.12
+2 or less crossing        = 100.00
+Tagging accuracy          =  98.15
+
+-- len<=40 --
+Number of sentence        =     23
+Number of Error sentence  =      5
+Number of Skip  sentence  =      2
+Number of Valid sentence  =     16
+Bracketing Recall         =  81.25
+Bracketing Precision      =  85.25
+Bracketing FMeasure       =  83.20
+Complete match            =  50.00
+Average crossing          =   0.06
+No crossing               =  93.75
+2 or less crossing        = 100.00
+Tagging accuracy          =  96.88

@@ -1,0 +1,32 @@
+int main
+void init_global
+void print_head
+void init
+void read_parameter_file
+void set_param
+int narg
+int read_line
+
+void pushb
+int popb
+int stackempty
+
+void calc_result(unsigned char *buf1,unsigned char *buf)
+void fix_quote
+void reinsert_term
+void massage_data
+void preprocess_data
+void modify_label
+void individual_result
+void print_total
+void dsp_info
+int is_terminator
+int is_deletelabel
+int is_deletelabel_for_length
+int is_quote_term
+int word_comp
+int label_comp
+
+void Error
+void Fatal
+void Usage

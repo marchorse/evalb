@@ -1,0 +1,187 @@
+evalb.cpp: In function ‘void read_parameter_file(char*)’:
+evalb.cpp:459:51: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  Fatal("Can't open parameter file (%s)\n",filename);
+                                                   ^
+evalb.cpp: In function ‘int read_line(char*, s_terminal*, s_term_ind*, int*, s_bracket*, int*)’:
+evalb.cpp:674:52: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       Error("More than two elements in a bracket\n");
+                                                    ^
+evalb.cpp:698:32: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+      Error("Reading sentence\n");
+                                ^
+evalb.cpp:703:60: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  Error("Bracketing is unbalanced (too many open bracket)\n");
+                                                            ^
+evalb.cpp:608:11: warning: variable ‘n’ set but not used [-Wunused-but-set-variable]
+     int   n;              /* temporary remembering the position */
+           ^
+evalb.cpp: In function ‘int popb()’:
+evalb.cpp:730:57: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  Error("Bracketing unbalance (too many close bracket)\n");
+                                                         ^
+evalb.cpp: In function ‘void calc_result(unsigned char*, unsigned char*)’:
+evalb.cpp:781:43: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   Error("Length unmatch (%d|%d)\n",wn1,wn2);
+                                           ^
+evalb.cpp:781:43: warning: invalid conversion from ‘int’ to ‘char*’ [-fpermissive]
+evalb.cpp:332:6: note: initializing argument 2 of ‘void Error(char*, char*, char*, char*, ...)’
+ void Error(char* s,char* arg1=NULL,char* arg2=NULL,char* arg3=NULL,...);
+      ^
+evalb.cpp:781:43: warning: invalid conversion from ‘int’ to ‘char*’ [-fpermissive]
+   Error("Length unmatch (%d|%d)\n",wn1,wn2);
+                                           ^
+evalb.cpp:332:6: note: initializing argument 3 of ‘void Error(char*, char*, char*, char*, ...)’
+ void Error(char* s,char* arg1=NULL,char* arg2=NULL,char* arg3=NULL,...);
+      ^
+evalb.cpp:790:62: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+                                             terminal2[i].word);
+                                                              ^
+evalb.cpp:824:27: warning: invalid conversion from ‘unsigned char*’ to ‘const char*’ [-fpermissive]
+        strncpy(my_buf,buf1+bracket1[i].buf_start,l);
+                           ^
+In file included from evalb.cpp:24:0:
+/usr/include/string.h:132:14: note: initializing argument 2 of ‘char* strncpy(char*, const char*, size_t)’
+ extern char *strncpy (char *__restrict __dest,
+              ^
+evalb.cpp:830:26: warning: invalid conversion from ‘unsigned char*’ to ‘const char*’ [-fpermissive]
+        strncpy(my_buf,buf+bracket2[i].buf_start,l);
+                          ^
+In file included from evalb.cpp:24:0:
+/usr/include/string.h:132:14: note: initializing argument 2 of ‘char* strncpy(char*, const char*, size_t)’
+ extern char *strncpy (char *__restrict __dest,
+              ^
+evalb.cpp:848:21: warning: invalid conversion from ‘unsigned char*’ to ‘const char*’ [-fpermissive]
+  strncpy(my_buf,buf1+bracket1[i].buf_start,l);
+                     ^
+In file included from evalb.cpp:24:0:
+/usr/include/string.h:132:14: note: initializing argument 2 of ‘char* strncpy(char*, const char*, size_t)’
+ extern char *strncpy (char *__restrict __dest,
+              ^
+evalb.cpp:860:20: warning: invalid conversion from ‘unsigned char*’ to ‘const char*’ [-fpermissive]
+  strncpy(my_buf,buf+bracket2[j].buf_start,l);
+                    ^
+In file included from evalb.cpp:24:0:
+/usr/include/string.h:132:14: note: initializing argument 2 of ‘char* strncpy(char*, const char*, size_t)’
+ extern char *strncpy (char *__restrict __dest,
+              ^
+evalb.cpp:888:26: warning: invalid conversion from ‘unsigned char*’ to ‘const char*’ [-fpermissive]
+       strncpy(my_buf,buf1+bracket1[i].buf_start,l);
+                          ^
+In file included from evalb.cpp:24:0:
+/usr/include/string.h:132:14: note: initializing argument 2 of ‘char* strncpy(char*, const char*, size_t)’
+ extern char *strncpy (char *__restrict __dest,
+              ^
+evalb.cpp: In function ‘void preprocess_data()’:
+evalb.cpp:1027:9: warning: unused variable ‘i’ [-Wunused-variable]
+     int i, j;
+         ^
+evalb.cpp:1027:12: warning: unused variable ‘j’ [-Wunused-variable]
+     int i, j;
+            ^
+evalb.cpp: In function ‘void Error(char*, char*, char*, char*, ...)’:
+evalb.cpp:1443:71: warning: default argument given for parameter 2 of ‘void Error(char*, char*, char*, char*, ...)’ [-fpermissive]
+ void Error(char* s,char* arg1=NULL,char* arg2=NULL,char* arg3=NULL,...)
+                                                                       ^
+evalb.cpp:332:6: note: previous specification in ‘void Error(char*, char*, char*, char*, ...)’ here
+ void Error(char* s,char* arg1=NULL,char* arg2=NULL,char* arg3=NULL,...);
+      ^
+evalb.cpp:1443:71: warning: default argument given for parameter 3 of ‘void Error(char*, char*, char*, char*, ...)’ [-fpermissive]
+ void Error(char* s,char* arg1=NULL,char* arg2=NULL,char* arg3=NULL,...)
+                                                                       ^
+evalb.cpp:332:6: note: previous specification in ‘void Error(char*, char*, char*, char*, ...)’ here
+ void Error(char* s,char* arg1=NULL,char* arg2=NULL,char* arg3=NULL,...);
+      ^
+evalb.cpp:1443:71: warning: default argument given for parameter 4 of ‘void Error(char*, char*, char*, char*, ...)’ [-fpermissive]
+ void Error(char* s,char* arg1=NULL,char* arg2=NULL,char* arg3=NULL,...)
+                                                                       ^
+evalb.cpp:332:6: note: previous specification in ‘void Error(char*, char*, char*, char*, ...)’ here
+ void Error(char* s,char* arg1=NULL,char* arg2=NULL,char* arg3=NULL,...);
+      ^
+evalb.cpp: In function ‘void Fatal(char*, char*, char*, char*, ...)’:
+evalb.cpp:1458:71: warning: default argument given for parameter 2 of ‘void Fatal(char*, char*, char*, char*, ...)’ [-fpermissive]
+ void Fatal(char* s,char* arg1=NULL,char* arg2=NULL,char* arg3=NULL,...)
+                                                                       ^
+evalb.cpp:333:6: note: previous specification in ‘void Fatal(char*, char*, char*, char*, ...)’ here
+ void Fatal(char* s,char* arg1=NULL,char* arg2=NULL,char* arg3=NULL,...);
+      ^
+evalb.cpp:1458:71: warning: default argument given for parameter 3 of ‘void Fatal(char*, char*, char*, char*, ...)’ [-fpermissive]
+ void Fatal(char* s,char* arg1=NULL,char* arg2=NULL,char* arg3=NULL,...)
+                                                                       ^
+evalb.cpp:333:6: note: previous specification in ‘void Fatal(char*, char*, char*, char*, ...)’ here
+ void Fatal(char* s,char* arg1=NULL,char* arg2=NULL,char* arg3=NULL,...);
+      ^
+evalb.cpp:1458:71: warning: default argument given for parameter 4 of ‘void Fatal(char*, char*, char*, char*, ...)’ [-fpermissive]
+ void Fatal(char* s,char* arg1=NULL,char* arg2=NULL,char* arg3=NULL,...)
+                                                                       ^
+evalb.cpp:333:6: note: previous specification in ‘void Fatal(char*, char*, char*, char*, ...)’ here
+ void Fatal(char* s,char* arg1=NULL,char* arg2=NULL,char* arg3=NULL,...);
+      ^
+evalb.cpp: In function ‘int main(int, char**)’:
+evalb.cpp:1550:47: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  Fatal("Can't open gold file (%s)\n",filename1);
+                                               ^
+evalb.cpp:1553:47: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  Fatal("Can't open test file (%s)\n",filename2);
+                                               ^
+evalb.cpp:1558:35: warning: invalid conversion from ‘unsigned char*’ to ‘char*’ [-fpermissive]
+     for(Line=1;fgets(buff,5000,fd1)!=NULL;Line++){
+                                   ^
+In file included from evalb.cpp:21:0:
+/usr/include/stdio.h:622:14: note: initializing argument 1 of ‘char* fgets(char*, int, FILE*)’
+ extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+              ^
+evalb.cpp:1563:63: warning: invalid conversion from ‘unsigned char*’ to ‘char*’ [-fpermissive]
+  r_wn1 = read_line(buff,terminal1,quotterm1,&wn1,bracket1,&bn1);
+                                                               ^
+evalb.cpp:597:5: note: initializing argument 1 of ‘int read_line(char*, s_terminal*, s_term_ind*, int*, s_bracket*, int*)’
+ int read_line(char* buff,s_terminal* terminal, s_term_ind* quotterm, int * wn,s_bracket* bracket,int* bn)
+     ^
+evalb.cpp:1574:30: warning: invalid conversion from ‘unsigned char*’ to ‘char*’ [-fpermissive]
+         bracket1[i].show(buff);
+                              ^
+evalb.cpp:112:10: note: initializing argument 1 of ‘void ss_bracket::show(char*)’
+     void show(char* buff) {
+          ^
+evalb.cpp:1580:51: warning: format ‘%s’ expects argument of type ‘char*’, but argument 3 has type ‘s_term_ind {aka ss_term_ind}’ [-Wformat=]
+         printf("quotterm1[%d]:%s\n",i,quotterm1[i]);
+                                                   ^
+evalb.cpp:1585:19: warning: invalid conversion from ‘unsigned char*’ to ‘char*’ [-fpermissive]
+  strcpy(buff1,buff);
+                   ^
+In file included from evalb.cpp:24:0:
+/usr/include/string.h:129:14: note: initializing argument 1 of ‘char* strcpy(char*, const char*)’
+ extern char *strcpy (char *__restrict __dest, const char *__restrict __src)
+              ^
+evalb.cpp:1585:19: warning: invalid conversion from ‘unsigned char*’ to ‘const char*’ [-fpermissive]
+  strcpy(buff1,buff);
+                   ^
+In file included from evalb.cpp:24:0:
+/usr/include/string.h:129:14: note: initializing argument 2 of ‘char* strcpy(char*, const char*)’
+ extern char *strcpy (char *__restrict __dest, const char *__restrict __src)
+              ^
+evalb.cpp:1588:24: warning: invalid conversion from ‘unsigned char*’ to ‘char*’ [-fpermissive]
+  if(fgets(buff,5000,fd2)==NULL){
+                        ^
+In file included from evalb.cpp:21:0:
+/usr/include/stdio.h:622:14: note: initializing argument 1 of ‘char* fgets(char*, int, FILE*)’
+ extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+              ^
+evalb.cpp:1589:69: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+      Error("Number of lines unmatch (too many lines in gold file)\n");
+                                                                     ^
+evalb.cpp:1593:55: warning: invalid conversion from ‘unsigned char*’ to ‘char*’ [-fpermissive]
+  read_line(buff,terminal2,quotterm2,&wn2,bracket2,&bn2);
+                                                       ^
+evalb.cpp:597:5: note: initializing argument 1 of ‘int read_line(char*, s_terminal*, s_term_ind*, int*, s_bracket*, int*)’
+ int read_line(char* buff,s_terminal* terminal, s_term_ind* quotterm, int * wn,s_bracket* bracket,int* bn)
+     ^
+evalb.cpp:1606:27: warning: invalid conversion from ‘unsigned char*’ to ‘char*’ [-fpermissive]
+     if(fgets(buff,5000,fd2)!=NULL){
+                           ^
+In file included from evalb.cpp:21:0:
+/usr/include/stdio.h:622:14: note: initializing argument 1 of ‘char* fgets(char*, int, FILE*)’
+ extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+              ^
+evalb.cpp:1607:65: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  Error("Number of lines unmatch (too many lines in test file)\n");
+                                                                 ^
